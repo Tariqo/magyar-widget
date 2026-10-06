@@ -1,0 +1,7 @@
+.tools/
+HungarianWidget/bin/
+HungarianWidget/obj/
+HungarianWidget/.vs/
+dist/
+*.user
+*.suo

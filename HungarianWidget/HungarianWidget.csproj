@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>HungarianWidget</RootNamespace>
+    <AssemblyName>MagyarWidget</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Content\magyar.ico</ApplicationIcon>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.0" />
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="3.0.5" />
+    <PackageReference Include="SQLitePCLRaw.core" Version="3.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Content\magyar.ico" />
+    <EmbeddedResource Include="Content\cards.json" LogicalName="HungarianWidget.Content.cards.json" />
+    <EmbeddedResource Include="Content\expanded-cards.json" LogicalName="HungarianWidget.Content.expanded-cards.json" />
+    <EmbeddedResource Include="Content\Audio\*.wav">
+      <LogicalName>HungarianWidget.Content.Audio.%(Filename)%(Extension)</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

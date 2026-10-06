@@ -1,0 +1,3945 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "id": "x-street-talk-mi-ujsag",
+      "hungarian": "mi újság",
+      "english": "what's new",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Na, mi újság veled?",
+      "exampleEnglish": "So, what's new with you?",
+      "exampleAudioId": "ex-x-street-talk-mi-ujsag"
+    },
+    {
+      "id": "x-street-talk-mizu",
+      "hungarian": "mizu",
+      "english": "what's up (very casual)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Mizu? Rég láttalak.",
+      "exampleEnglish": "What's up? I haven't seen you in a while.",
+      "exampleAudioId": "ex-x-street-talk-mizu"
+    },
+    {
+      "id": "x-street-talk-koszi",
+      "hungarian": "köszi",
+      "english": "thanks (casual)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Köszi a segítséget!",
+      "exampleEnglish": "Thanks for the help!",
+      "exampleAudioId": "ex-x-street-talk-koszi"
+    },
+    {
+      "id": "x-street-talk-bocsi",
+      "hungarian": "bocsi",
+      "english": "sorry (casual)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Bocsi, elkéstem.",
+      "exampleEnglish": "Sorry, I'm late.",
+      "exampleAudioId": "ex-x-street-talk-bocsi"
+    },
+    {
+      "id": "x-street-talk-csa",
+      "hungarian": "csá",
+      "english": "bye (casual)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Csá, holnap találkozunk!",
+      "exampleEnglish": "Bye, see you tomorrow!",
+      "exampleAudioId": "ex-x-street-talk-csa"
+    },
+    {
+      "id": "x-street-talk-helloka",
+      "hungarian": "hellóka",
+      "english": "hi there (playful)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Hellóka, minden rendben?",
+      "exampleEnglish": "Hey there, is everything okay?",
+      "exampleAudioId": "ex-x-street-talk-helloka"
+    },
+    {
+      "id": "x-street-talk-tok-jo",
+      "hungarian": "tök jó",
+      "english": "really cool",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Ez a hely tök jó.",
+      "exampleEnglish": "This place is really cool.",
+      "exampleAudioId": "ex-x-street-talk-tok-jo"
+    },
+    {
+      "id": "x-street-talk-meno",
+      "hungarian": "menő",
+      "english": "cool / stylish",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Ez a kabát nagyon menő.",
+      "exampleEnglish": "This jacket is really cool.",
+      "exampleAudioId": "ex-x-street-talk-meno"
+    },
+    {
+      "id": "x-street-talk-kiraly",
+      "hungarian": "király",
+      "english": "awesome (slang)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Király, jössz te is!",
+      "exampleEnglish": "Awesome, you're coming too!",
+      "exampleAudioId": "ex-x-street-talk-kiraly"
+    },
+    {
+      "id": "x-street-talk-szuper",
+      "hungarian": "szuper",
+      "english": "great",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "A terved szuper.",
+      "exampleEnglish": "Your plan is great.",
+      "exampleAudioId": "ex-x-street-talk-szuper"
+    },
+    {
+      "id": "x-street-talk-gaz",
+      "hungarian": "gáz",
+      "english": "awkward / bad (slang)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Ez most elég gáz.",
+      "exampleEnglish": "This is pretty awkward.",
+      "exampleAudioId": "ex-x-street-talk-gaz"
+    },
+    {
+      "id": "x-street-talk-para",
+      "hungarian": "para",
+      "english": "creepy / stressful (slang)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Ez a hang egy kicsit para.",
+      "exampleEnglish": "That sound is a little creepy.",
+      "exampleAudioId": "ex-x-street-talk-para"
+    },
+    {
+      "id": "x-street-talk-haver",
+      "hungarian": "haver",
+      "english": "buddy",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Haver, várj meg!",
+      "exampleEnglish": "Buddy, wait for me!",
+      "exampleAudioId": "ex-x-street-talk-haver"
+    },
+    {
+      "id": "x-street-talk-csaj",
+      "hungarian": "csaj",
+      "english": "girl / young woman (casual)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Az a csaj nagyon kedves.",
+      "exampleEnglish": "That girl is very kind.",
+      "exampleAudioId": "ex-x-street-talk-csaj"
+    },
+    {
+      "id": "x-street-talk-pasi",
+      "hungarian": "pasi",
+      "english": "guy (casual)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Az a pasi a barátom.",
+      "exampleEnglish": "That guy is my friend.",
+      "exampleAudioId": "ex-x-street-talk-pasi"
+    },
+    {
+      "id": "x-street-talk-buli",
+      "hungarian": "buli",
+      "english": "party",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Szombaton buli lesz.",
+      "exampleEnglish": "There's a party on Saturday.",
+      "exampleAudioId": "ex-x-street-talk-buli"
+    },
+    {
+      "id": "x-street-talk-pia",
+      "hungarian": "pia",
+      "english": "booze (slang)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "A buliban van pia.",
+      "exampleEnglish": "There's booze at the party.",
+      "exampleAudioId": "ex-x-street-talk-pia"
+    },
+    {
+      "id": "x-street-talk-kaja",
+      "hungarian": "kaja",
+      "english": "food (casual)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "A kaja nagyon finom.",
+      "exampleEnglish": "The food is really good.",
+      "exampleAudioId": "ex-x-street-talk-kaja"
+    },
+    {
+      "id": "x-street-talk-laza",
+      "hungarian": "laza",
+      "english": "relaxed / chill",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Ma laza napom van.",
+      "exampleEnglish": "I'm having a relaxed day today.",
+      "exampleAudioId": "ex-x-street-talk-laza"
+    },
+    {
+      "id": "x-street-talk-tuti",
+      "hungarian": "tuti",
+      "english": "for sure (slang)",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Tuti, hogy jövök.",
+      "exampleEnglish": "I'm definitely coming.",
+      "exampleAudioId": "ex-x-street-talk-tuti"
+    },
+    {
+      "id": "x-street-talk-siman",
+      "hungarian": "simán",
+      "english": "easily / sure",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Simán segítek neked.",
+      "exampleEnglish": "I'll gladly help you.",
+      "exampleAudioId": "ex-x-street-talk-siman"
+    },
+    {
+      "id": "x-street-talk-mindegy",
+      "hungarian": "mindegy",
+      "english": "doesn't matter",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Nekem mindegy, hová megyünk.",
+      "exampleEnglish": "I don't mind where we go.",
+      "exampleAudioId": "ex-x-street-talk-mindegy"
+    },
+    {
+      "id": "x-street-talk-na",
+      "hungarian": "na",
+      "english": "well / come on",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Na, induljunk!",
+      "exampleEnglish": "Come on, let's go!",
+      "exampleAudioId": "ex-x-street-talk-na"
+    },
+    {
+      "id": "x-street-talk-hoppa",
+      "hungarian": "hoppá",
+      "english": "oops!",
+      "kind": "word",
+      "topic": "Street talk",
+      "exampleHungarian": "Hoppá, leesett a kulcs.",
+      "exampleEnglish": "Oops, the key fell.",
+      "exampleAudioId": "ex-x-street-talk-hoppa"
+    },
+    {
+      "id": "x-shops-services-penztar",
+      "hungarian": "pénztár",
+      "english": "checkout",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A pénztár a bolt végén van.",
+      "exampleEnglish": "The checkout is at the back of the shop.",
+      "exampleAudioId": "ex-x-shops-services-penztar"
+    },
+    {
+      "id": "x-shops-services-kassza",
+      "hungarian": "kassza",
+      "english": "cash register",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A kassza most nyitva van.",
+      "exampleEnglish": "The till is open now.",
+      "exampleAudioId": "ex-x-shops-services-kassza"
+    },
+    {
+      "id": "x-shops-services-elado",
+      "hungarian": "eladó",
+      "english": "sales assistant",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "Az eladó segít nekem.",
+      "exampleEnglish": "The sales assistant is helping me.",
+      "exampleAudioId": "ex-x-shops-services-elado"
+    },
+    {
+      "id": "x-shops-services-vasarlo",
+      "hungarian": "vásárló",
+      "english": "customer",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A vásárló már fizet.",
+      "exampleEnglish": "The customer is paying already.",
+      "exampleAudioId": "ex-x-shops-services-vasarlo"
+    },
+    {
+      "id": "x-shops-services-ar",
+      "hungarian": "ár",
+      "english": "price",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "Az ár túl magas.",
+      "exampleEnglish": "The price is too high.",
+      "exampleAudioId": "ex-x-shops-services-ar"
+    },
+    {
+      "id": "x-shops-services-akcio",
+      "hungarian": "akció",
+      "english": "sale / special offer",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "Ma akció van a boltban.",
+      "exampleEnglish": "There's a sale in the shop today.",
+      "exampleAudioId": "ex-x-shops-services-akcio"
+    },
+    {
+      "id": "x-shops-services-kedvezmeny",
+      "hungarian": "kedvezmény",
+      "english": "discount",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "Diákigazolvánnyal kedvezmény jár.",
+      "exampleEnglish": "Students get a discount with a student ID.",
+      "exampleAudioId": "ex-x-shops-services-kedvezmeny"
+    },
+    {
+      "id": "x-shops-services-learazas",
+      "hungarian": "leárazás",
+      "english": "sale / markdown",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A leárazás hétfőn kezdődik.",
+      "exampleEnglish": "The sale starts on Monday.",
+      "exampleAudioId": "ex-x-shops-services-learazas"
+    },
+    {
+      "id": "x-shops-services-cimke",
+      "hungarian": "címke",
+      "english": "label",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A címkén rajta van az ár.",
+      "exampleEnglish": "The price is on the label.",
+      "exampleAudioId": "ex-x-shops-services-cimke"
+    },
+    {
+      "id": "x-shops-services-blokk",
+      "hungarian": "blokk",
+      "english": "receipt",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "Kérem a blokkot.",
+      "exampleEnglish": "May I have the receipt?",
+      "exampleAudioId": "ex-x-shops-services-blokk"
+    },
+    {
+      "id": "x-shops-services-nyugta",
+      "hungarian": "nyugta",
+      "english": "receipt",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A nyugtát elteszem.",
+      "exampleEnglish": "I'll keep the receipt.",
+      "exampleAudioId": "ex-x-shops-services-nyugta"
+    },
+    {
+      "id": "x-shops-services-garancia",
+      "hungarian": "garancia",
+      "english": "warranty",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "Erre a telefonra két év garancia van.",
+      "exampleEnglish": "This phone has a two-year warranty.",
+      "exampleAudioId": "ex-x-shops-services-garancia"
+    },
+    {
+      "id": "x-shops-services-csere",
+      "hungarian": "csere",
+      "english": "exchange",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A csere ingyenes.",
+      "exampleEnglish": "The exchange is free.",
+      "exampleAudioId": "ex-x-shops-services-csere"
+    },
+    {
+      "id": "x-shops-services-meret",
+      "hungarian": "méret",
+      "english": "size",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "Milyen méretet keres?",
+      "exampleEnglish": "What size are you looking for?",
+      "exampleAudioId": "ex-x-shops-services-meret"
+    },
+    {
+      "id": "x-shops-services-probafulke",
+      "hungarian": "próbafülke",
+      "english": "fitting room",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A próbafülke a sarokban van.",
+      "exampleEnglish": "The fitting room is in the corner.",
+      "exampleAudioId": "ex-x-shops-services-probafulke"
+    },
+    {
+      "id": "x-shops-services-bevasarlokosar",
+      "hungarian": "bevásárlókosár",
+      "english": "shopping basket",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A bevásárlókosár az ajtó mellett van.",
+      "exampleEnglish": "The shopping basket is beside the door.",
+      "exampleAudioId": "ex-x-shops-services-bevasarlokosar"
+    },
+    {
+      "id": "x-shops-services-bevasarlokocsi",
+      "hungarian": "bevásárlókocsi",
+      "english": "shopping cart",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A bevásárlókocsi üres.",
+      "exampleEnglish": "The shopping cart is empty.",
+      "exampleAudioId": "ex-x-shops-services-bevasarlokocsi"
+    },
+    {
+      "id": "x-shops-services-polc",
+      "hungarian": "polc",
+      "english": "shelf",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A polcon van a tej.",
+      "exampleEnglish": "The milk is on the shelf.",
+      "exampleAudioId": "ex-x-shops-services-polc"
+    },
+    {
+      "id": "x-shops-services-pult",
+      "hungarian": "pult",
+      "english": "counter",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A pultnál lehet fizetni.",
+      "exampleEnglish": "You can pay at the counter.",
+      "exampleAudioId": "ex-x-shops-services-pult"
+    },
+    {
+      "id": "x-shops-services-sor",
+      "hungarian": "sor",
+      "english": "queue",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "Hosszú sor áll a pénztárnál.",
+      "exampleEnglish": "There's a long queue at the checkout.",
+      "exampleAudioId": "ex-x-shops-services-sor"
+    },
+    {
+      "id": "x-shops-services-pekseg",
+      "hungarian": "pékség",
+      "english": "bakery",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A pékség reggel hétkor nyit.",
+      "exampleEnglish": "The bakery opens at seven in the morning.",
+      "exampleAudioId": "ex-x-shops-services-pekseg"
+    },
+    {
+      "id": "x-shops-services-piac",
+      "hungarian": "piac",
+      "english": "market",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A piac szombaton is nyitva van.",
+      "exampleEnglish": "The market is open on Saturdays too.",
+      "exampleAudioId": "ex-x-shops-services-piac"
+    },
+    {
+      "id": "x-shops-services-drogeria",
+      "hungarian": "drogéria",
+      "english": "drugstore",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A drogéria a gyógyszertár mellett van.",
+      "exampleEnglish": "The drugstore is next to the pharmacy.",
+      "exampleAudioId": "ex-x-shops-services-drogeria"
+    },
+    {
+      "id": "x-shops-services-hentes",
+      "hungarian": "hentes",
+      "english": "butcher",
+      "kind": "word",
+      "topic": "Shops & services",
+      "exampleHungarian": "A hentes friss húst árul.",
+      "exampleEnglish": "The butcher sells fresh meat.",
+      "exampleAudioId": "ex-x-shops-services-hentes"
+    },
+    {
+      "id": "x-food-drink-sajt",
+      "hungarian": "sajt",
+      "english": "cheese",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A sajt finom.",
+      "exampleEnglish": "The cheese is tasty.",
+      "exampleAudioId": "ex-x-food-drink-sajt"
+    },
+    {
+      "id": "x-food-drink-tojas",
+      "hungarian": "tojás",
+      "english": "egg",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A tojás finom.",
+      "exampleEnglish": "The egg is tasty.",
+      "exampleAudioId": "ex-x-food-drink-tojas"
+    },
+    {
+      "id": "x-food-drink-vaj",
+      "hungarian": "vaj",
+      "english": "butter",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A vaj finom.",
+      "exampleEnglish": "The butter is tasty.",
+      "exampleAudioId": "ex-x-food-drink-vaj"
+    },
+    {
+      "id": "x-food-drink-mez",
+      "hungarian": "méz",
+      "english": "honey",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A méz finom.",
+      "exampleEnglish": "The honey is tasty.",
+      "exampleAudioId": "ex-x-food-drink-mez"
+    },
+    {
+      "id": "x-food-drink-lekvar",
+      "hungarian": "lekvár",
+      "english": "jam",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A lekvár finom.",
+      "exampleEnglish": "The jam is tasty.",
+      "exampleAudioId": "ex-x-food-drink-lekvar"
+    },
+    {
+      "id": "x-food-drink-rizs",
+      "hungarian": "rizs",
+      "english": "rice",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A rizs finom.",
+      "exampleEnglish": "The rice is tasty.",
+      "exampleAudioId": "ex-x-food-drink-rizs"
+    },
+    {
+      "id": "x-food-drink-teszta",
+      "hungarian": "tészta",
+      "english": "pasta",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A tészta finom.",
+      "exampleEnglish": "The pasta is tasty.",
+      "exampleAudioId": "ex-x-food-drink-teszta"
+    },
+    {
+      "id": "x-food-drink-burgonya",
+      "hungarian": "burgonya",
+      "english": "potato",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A burgonya finom.",
+      "exampleEnglish": "The potato is tasty.",
+      "exampleAudioId": "ex-x-food-drink-burgonya"
+    },
+    {
+      "id": "x-food-drink-krumpli",
+      "hungarian": "krumpli",
+      "english": "potato (everyday)",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A krumpli finom.",
+      "exampleEnglish": "The potato is tasty.",
+      "exampleAudioId": "ex-x-food-drink-krumpli"
+    },
+    {
+      "id": "x-food-drink-hagyma",
+      "hungarian": "hagyma",
+      "english": "onion",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A hagyma finom.",
+      "exampleEnglish": "The onion is tasty.",
+      "exampleAudioId": "ex-x-food-drink-hagyma"
+    },
+    {
+      "id": "x-food-drink-fokhagyma",
+      "hungarian": "fokhagyma",
+      "english": "garlic",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A fokhagyma finom.",
+      "exampleEnglish": "The garlic is tasty.",
+      "exampleAudioId": "ex-x-food-drink-fokhagyma"
+    },
+    {
+      "id": "x-food-drink-paradicsom",
+      "hungarian": "paradicsom",
+      "english": "tomato",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A paradicsom finom.",
+      "exampleEnglish": "The tomato is tasty.",
+      "exampleAudioId": "ex-x-food-drink-paradicsom"
+    },
+    {
+      "id": "x-food-drink-uborka",
+      "hungarian": "uborka",
+      "english": "cucumber",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "Az uborka finom.",
+      "exampleEnglish": "The cucumber is tasty.",
+      "exampleAudioId": "ex-x-food-drink-uborka"
+    },
+    {
+      "id": "x-food-drink-repa",
+      "hungarian": "répa",
+      "english": "carrot",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A répa finom.",
+      "exampleEnglish": "The carrot is tasty.",
+      "exampleAudioId": "ex-x-food-drink-repa"
+    },
+    {
+      "id": "x-food-drink-narancs",
+      "hungarian": "narancs",
+      "english": "orange",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A narancs finom.",
+      "exampleEnglish": "The orange is tasty.",
+      "exampleAudioId": "ex-x-food-drink-narancs"
+    },
+    {
+      "id": "x-food-drink-korte",
+      "hungarian": "körte",
+      "english": "pear",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A körte finom.",
+      "exampleEnglish": "The pear is tasty.",
+      "exampleAudioId": "ex-x-food-drink-korte"
+    },
+    {
+      "id": "x-food-drink-szolo",
+      "hungarian": "szőlő",
+      "english": "grapes",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A szőlő finom.",
+      "exampleEnglish": "The grapes is tasty.",
+      "exampleAudioId": "ex-x-food-drink-szolo"
+    },
+    {
+      "id": "x-food-drink-eper",
+      "hungarian": "eper",
+      "english": "strawberry",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "Az eper finom.",
+      "exampleEnglish": "The strawberry is tasty.",
+      "exampleAudioId": "ex-x-food-drink-eper"
+    },
+    {
+      "id": "x-food-drink-cseresznye",
+      "hungarian": "cseresznye",
+      "english": "cherry",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A cseresznye finom.",
+      "exampleEnglish": "The cherry is tasty.",
+      "exampleAudioId": "ex-x-food-drink-cseresznye"
+    },
+    {
+      "id": "x-food-drink-citrom",
+      "hungarian": "citrom",
+      "english": "lemon",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A citrom finom.",
+      "exampleEnglish": "The lemon is tasty.",
+      "exampleAudioId": "ex-x-food-drink-citrom"
+    },
+    {
+      "id": "x-food-drink-cukor",
+      "hungarian": "cukor",
+      "english": "sugar",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A cukor finom.",
+      "exampleEnglish": "The sugar is tasty.",
+      "exampleAudioId": "ex-x-food-drink-cukor"
+    },
+    {
+      "id": "x-food-drink-so",
+      "hungarian": "só",
+      "english": "salt",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "Kevés só van az ételben.",
+      "exampleEnglish": "There's little salt in the food.",
+      "exampleAudioId": "ex-x-food-drink-so"
+    },
+    {
+      "id": "x-food-drink-bors",
+      "hungarian": "bors",
+      "english": "pepper",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "Egy kis borsot teszek a levesbe.",
+      "exampleEnglish": "I'll add a little pepper to the soup.",
+      "exampleAudioId": "ex-x-food-drink-bors"
+    },
+    {
+      "id": "x-food-drink-leves",
+      "hungarian": "leves",
+      "english": "soup",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A leves finom.",
+      "exampleEnglish": "The soup is tasty.",
+      "exampleAudioId": "ex-x-food-drink-leves"
+    },
+    {
+      "id": "x-food-drink-salata",
+      "hungarian": "saláta",
+      "english": "salad",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A saláta finom.",
+      "exampleEnglish": "The salad is tasty.",
+      "exampleAudioId": "ex-x-food-drink-salata"
+    },
+    {
+      "id": "x-food-drink-csirke",
+      "hungarian": "csirke",
+      "english": "chicken",
+      "kind": "word",
+      "topic": "Food & drink",
+      "exampleHungarian": "A csirke finom.",
+      "exampleEnglish": "The chicken is tasty.",
+      "exampleAudioId": "ex-x-food-drink-csirke"
+    },
+    {
+      "id": "x-clothing-ruha",
+      "hungarian": "ruha",
+      "english": "dress / clothing",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a ruha új.",
+      "exampleEnglish": "This dress is new.",
+      "exampleAudioId": "ex-x-clothing-ruha"
+    },
+    {
+      "id": "x-clothing-polo",
+      "hungarian": "póló",
+      "english": "T-shirt",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a póló új.",
+      "exampleEnglish": "This T-shirt is new.",
+      "exampleAudioId": "ex-x-clothing-polo"
+    },
+    {
+      "id": "x-clothing-ing",
+      "hungarian": "ing",
+      "english": "shirt",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez az ing új.",
+      "exampleEnglish": "This shirt is new.",
+      "exampleAudioId": "ex-x-clothing-ing"
+    },
+    {
+      "id": "x-clothing-nadrag",
+      "hungarian": "nadrág",
+      "english": "trousers",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a nadrág új.",
+      "exampleEnglish": "This trousers is new.",
+      "exampleAudioId": "ex-x-clothing-nadrag"
+    },
+    {
+      "id": "x-clothing-szoknya",
+      "hungarian": "szoknya",
+      "english": "skirt",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a szoknya új.",
+      "exampleEnglish": "This skirt is new.",
+      "exampleAudioId": "ex-x-clothing-szoknya"
+    },
+    {
+      "id": "x-clothing-cipo",
+      "hungarian": "cipő",
+      "english": "shoe",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a cipő új.",
+      "exampleEnglish": "This shoe is new.",
+      "exampleAudioId": "ex-x-clothing-cipo"
+    },
+    {
+      "id": "x-clothing-zokni",
+      "hungarian": "zokni",
+      "english": "sock",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a zokni új.",
+      "exampleEnglish": "This sock is new.",
+      "exampleAudioId": "ex-x-clothing-zokni"
+    },
+    {
+      "id": "x-clothing-kabat",
+      "hungarian": "kabát",
+      "english": "coat",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a kabát új.",
+      "exampleEnglish": "This coat is new.",
+      "exampleAudioId": "ex-x-clothing-kabat"
+    },
+    {
+      "id": "x-clothing-dzseki",
+      "hungarian": "dzseki",
+      "english": "jacket",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a dzseki új.",
+      "exampleEnglish": "This jacket is new.",
+      "exampleAudioId": "ex-x-clothing-dzseki"
+    },
+    {
+      "id": "x-clothing-pulover",
+      "hungarian": "pulóver",
+      "english": "sweater",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a pulóver új.",
+      "exampleEnglish": "This sweater is new.",
+      "exampleAudioId": "ex-x-clothing-pulover"
+    },
+    {
+      "id": "x-clothing-sapka",
+      "hungarian": "sapka",
+      "english": "hat",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a sapka új.",
+      "exampleEnglish": "This hat is new.",
+      "exampleAudioId": "ex-x-clothing-sapka"
+    },
+    {
+      "id": "x-clothing-sal",
+      "hungarian": "sál",
+      "english": "scarf",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a sál új.",
+      "exampleEnglish": "This scarf is new.",
+      "exampleAudioId": "ex-x-clothing-sal"
+    },
+    {
+      "id": "x-clothing-kesztyu",
+      "hungarian": "kesztyű",
+      "english": "glove",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a kesztyű új.",
+      "exampleEnglish": "This glove is new.",
+      "exampleAudioId": "ex-x-clothing-kesztyu"
+    },
+    {
+      "id": "x-clothing-csizma",
+      "hungarian": "csizma",
+      "english": "boot",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a csizma új.",
+      "exampleEnglish": "This boot is new.",
+      "exampleAudioId": "ex-x-clothing-csizma"
+    },
+    {
+      "id": "x-clothing-farmer",
+      "hungarian": "farmer",
+      "english": "jeans",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a farmer kényelmes.",
+      "exampleEnglish": "These jeans are comfortable.",
+      "exampleAudioId": "ex-x-clothing-farmer"
+    },
+    {
+      "id": "x-clothing-ov",
+      "hungarian": "öv",
+      "english": "belt",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez az öv új.",
+      "exampleEnglish": "This belt is new.",
+      "exampleAudioId": "ex-x-clothing-ov"
+    },
+    {
+      "id": "x-clothing-zseb",
+      "hungarian": "zseb",
+      "english": "pocket",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a zseb új.",
+      "exampleEnglish": "This pocket is new.",
+      "exampleAudioId": "ex-x-clothing-zseb"
+    },
+    {
+      "id": "x-clothing-gomb",
+      "hungarian": "gomb",
+      "english": "button",
+      "kind": "word",
+      "topic": "Clothing",
+      "exampleHungarian": "Ez a gomb új.",
+      "exampleEnglish": "This button is new.",
+      "exampleAudioId": "ex-x-clothing-gomb"
+    },
+    {
+      "id": "x-home-everyday-objects-nappali",
+      "hungarian": "nappali",
+      "english": "living room",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A nappali a lakásban van.",
+      "exampleEnglish": "The living room is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-nappali"
+    },
+    {
+      "id": "x-home-everyday-objects-haloszoba",
+      "hungarian": "hálószoba",
+      "english": "bedroom",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A hálószoba a lakásban van.",
+      "exampleEnglish": "The bedroom is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-haloszoba"
+    },
+    {
+      "id": "x-home-everyday-objects-furdoszoba",
+      "hungarian": "fürdőszoba",
+      "english": "bathroom",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A fürdőszoba a lakásban van.",
+      "exampleEnglish": "The bathroom is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-furdoszoba"
+    },
+    {
+      "id": "x-home-everyday-objects-konyha",
+      "hungarian": "konyha",
+      "english": "kitchen",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A konyha a lakásban van.",
+      "exampleEnglish": "The kitchen is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-konyha"
+    },
+    {
+      "id": "x-home-everyday-objects-erkely",
+      "hungarian": "erkély",
+      "english": "balcony",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "Az erkély a lakásban van.",
+      "exampleEnglish": "The balcony is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-erkely"
+    },
+    {
+      "id": "x-home-everyday-objects-lepcso",
+      "hungarian": "lépcső",
+      "english": "stairs",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A lépcső a lakásban van.",
+      "exampleEnglish": "The stairs is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-lepcso"
+    },
+    {
+      "id": "x-home-everyday-objects-emelet",
+      "hungarian": "emelet",
+      "english": "floor / storey",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "Az emelet a lakásban van.",
+      "exampleEnglish": "The floor is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-emelet"
+    },
+    {
+      "id": "x-home-everyday-objects-fal",
+      "hungarian": "fal",
+      "english": "wall",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A fal a lakásban van.",
+      "exampleEnglish": "The wall is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-fal"
+    },
+    {
+      "id": "x-home-everyday-objects-padlo",
+      "hungarian": "padló",
+      "english": "floor",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A padló a lakásban van.",
+      "exampleEnglish": "The floor is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-padlo"
+    },
+    {
+      "id": "x-home-everyday-objects-mennyezet",
+      "hungarian": "mennyezet",
+      "english": "ceiling",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A mennyezet a lakásban van.",
+      "exampleEnglish": "The ceiling is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-mennyezet"
+    },
+    {
+      "id": "x-home-everyday-objects-asztal",
+      "hungarian": "asztal",
+      "english": "table",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "Az asztal a lakásban van.",
+      "exampleEnglish": "The table is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-asztal"
+    },
+    {
+      "id": "x-home-everyday-objects-szek",
+      "hungarian": "szék",
+      "english": "chair",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A szék a lakásban van.",
+      "exampleEnglish": "The chair is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-szek"
+    },
+    {
+      "id": "x-home-everyday-objects-kanape",
+      "hungarian": "kanapé",
+      "english": "sofa",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A kanapé a lakásban van.",
+      "exampleEnglish": "The sofa is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-kanape"
+    },
+    {
+      "id": "x-home-everyday-objects-agy",
+      "hungarian": "ágy",
+      "english": "bed",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "Az ágy a lakásban van.",
+      "exampleEnglish": "The bed is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-agy"
+    },
+    {
+      "id": "x-home-everyday-objects-parna",
+      "hungarian": "párna",
+      "english": "pillow",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A párna a lakásban van.",
+      "exampleEnglish": "The pillow is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-parna"
+    },
+    {
+      "id": "x-home-everyday-objects-takaro",
+      "hungarian": "takaró",
+      "english": "blanket",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A takaró a lakásban van.",
+      "exampleEnglish": "The blanket is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-takaro"
+    },
+    {
+      "id": "x-home-everyday-objects-lampa",
+      "hungarian": "lámpa",
+      "english": "lamp",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A lámpa a lakásban van.",
+      "exampleEnglish": "The lamp is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-lampa"
+    },
+    {
+      "id": "x-home-everyday-objects-szonyeg",
+      "hungarian": "szőnyeg",
+      "english": "rug",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A szőnyeg a lakásban van.",
+      "exampleEnglish": "The rug is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-szonyeg"
+    },
+    {
+      "id": "x-home-everyday-objects-fuggony",
+      "hungarian": "függöny",
+      "english": "curtain",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A függöny a lakásban van.",
+      "exampleEnglish": "The curtain is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-fuggony"
+    },
+    {
+      "id": "x-home-everyday-objects-huto",
+      "hungarian": "hűtő",
+      "english": "fridge",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A hűtő a lakásban van.",
+      "exampleEnglish": "The fridge is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-huto"
+    },
+    {
+      "id": "x-home-everyday-objects-suto",
+      "hungarian": "sütő",
+      "english": "oven",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A sütő a lakásban van.",
+      "exampleEnglish": "The oven is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-suto"
+    },
+    {
+      "id": "x-home-everyday-objects-mosogep",
+      "hungarian": "mosógép",
+      "english": "washing machine",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A mosógép a lakásban van.",
+      "exampleEnglish": "The washing machine is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-mosogep"
+    },
+    {
+      "id": "x-home-everyday-objects-mosogato",
+      "hungarian": "mosogató",
+      "english": "kitchen sink",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A mosogató a lakásban van.",
+      "exampleEnglish": "The kitchen sink is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-mosogato"
+    },
+    {
+      "id": "x-home-everyday-objects-tukor",
+      "hungarian": "tükör",
+      "english": "mirror",
+      "kind": "word",
+      "topic": "Home & everyday objects",
+      "exampleHungarian": "A tükör a lakásban van.",
+      "exampleEnglish": "The mirror is in the apartment.",
+      "exampleAudioId": "ex-x-home-everyday-objects-tukor"
+    },
+    {
+      "id": "x-city-directions-hid",
+      "hungarian": "híd",
+      "english": "bridge",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A híd a városban van.",
+      "exampleEnglish": "The bridge is in the city.",
+      "exampleAudioId": "ex-x-city-directions-hid"
+    },
+    {
+      "id": "x-city-directions-ter",
+      "hungarian": "tér",
+      "english": "square",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A tér a városban van.",
+      "exampleEnglish": "The square is in the city.",
+      "exampleAudioId": "ex-x-city-directions-ter"
+    },
+    {
+      "id": "x-city-directions-park",
+      "hungarian": "park",
+      "english": "park",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A park a városban van.",
+      "exampleEnglish": "The park is in the city.",
+      "exampleAudioId": "ex-x-city-directions-park"
+    },
+    {
+      "id": "x-city-directions-jarda",
+      "hungarian": "járda",
+      "english": "sidewalk",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A járda a városban van.",
+      "exampleEnglish": "The sidewalk is in the city.",
+      "exampleAudioId": "ex-x-city-directions-jarda"
+    },
+    {
+      "id": "x-city-directions-zebra",
+      "hungarian": "zebra",
+      "english": "crosswalk",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A zebra a városban van.",
+      "exampleEnglish": "The crosswalk is in the city.",
+      "exampleAudioId": "ex-x-city-directions-zebra"
+    },
+    {
+      "id": "x-city-directions-keresztezodes",
+      "hungarian": "kereszteződés",
+      "english": "intersection",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A kereszteződés a városban van.",
+      "exampleEnglish": "The intersection is in the city.",
+      "exampleAudioId": "ex-x-city-directions-keresztezodes"
+    },
+    {
+      "id": "x-city-directions-kozlekedesi-lampa",
+      "hungarian": "közlekedési lámpa",
+      "english": "traffic light",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A közlekedési lámpa a városban van.",
+      "exampleEnglish": "The traffic light is in the city.",
+      "exampleAudioId": "ex-x-city-directions-kozlekedesi-lampa"
+    },
+    {
+      "id": "x-city-directions-sarok",
+      "hungarian": "sarok",
+      "english": "corner",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A sarok a városban van.",
+      "exampleEnglish": "The corner is in the city.",
+      "exampleAudioId": "ex-x-city-directions-sarok"
+    },
+    {
+      "id": "x-city-directions-ut",
+      "hungarian": "út",
+      "english": "road",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "Az út a városban van.",
+      "exampleEnglish": "The road is in the city.",
+      "exampleAudioId": "ex-x-city-directions-ut"
+    },
+    {
+      "id": "x-city-directions-konyvtar",
+      "hungarian": "könyvtár",
+      "english": "library",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A könyvtár a városban van.",
+      "exampleEnglish": "The library is in the city.",
+      "exampleAudioId": "ex-x-city-directions-konyvtar"
+    },
+    {
+      "id": "x-city-directions-muzeum",
+      "hungarian": "múzeum",
+      "english": "museum",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A múzeum a városban van.",
+      "exampleEnglish": "The museum is in the city.",
+      "exampleAudioId": "ex-x-city-directions-muzeum"
+    },
+    {
+      "id": "x-city-directions-mozi",
+      "hungarian": "mozi",
+      "english": "cinema",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A mozi a városban van.",
+      "exampleEnglish": "The cinema is in the city.",
+      "exampleAudioId": "ex-x-city-directions-mozi"
+    },
+    {
+      "id": "x-city-directions-szinhaz",
+      "hungarian": "színház",
+      "english": "theater",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A színház a városban van.",
+      "exampleEnglish": "The theater is in the city.",
+      "exampleAudioId": "ex-x-city-directions-szinhaz"
+    },
+    {
+      "id": "x-city-directions-templom",
+      "hungarian": "templom",
+      "english": "church",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A templom a városban van.",
+      "exampleEnglish": "The church is in the city.",
+      "exampleAudioId": "ex-x-city-directions-templom"
+    },
+    {
+      "id": "x-city-directions-rendorseg",
+      "hungarian": "rendőrség",
+      "english": "police station",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A rendőrség a városban van.",
+      "exampleEnglish": "The police station is in the city.",
+      "exampleAudioId": "ex-x-city-directions-rendorseg"
+    },
+    {
+      "id": "x-city-directions-bejarat",
+      "hungarian": "bejárat",
+      "english": "entrance",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A bejárat a városban van.",
+      "exampleEnglish": "The entrance is in the city.",
+      "exampleAudioId": "ex-x-city-directions-bejarat"
+    },
+    {
+      "id": "x-city-directions-kijarat",
+      "hungarian": "kijárat",
+      "english": "exit",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A kijárat a városban van.",
+      "exampleEnglish": "The exit is in the city.",
+      "exampleAudioId": "ex-x-city-directions-kijarat"
+    },
+    {
+      "id": "x-city-directions-lift",
+      "hungarian": "lift",
+      "english": "elevator",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A lift a városban van.",
+      "exampleEnglish": "The elevator is in the city.",
+      "exampleAudioId": "ex-x-city-directions-lift"
+    },
+    {
+      "id": "x-city-directions-szokokut",
+      "hungarian": "szökőkút",
+      "english": "fountain",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A szökőkút a városban van.",
+      "exampleEnglish": "The fountain is in the city.",
+      "exampleAudioId": "ex-x-city-directions-szokokut"
+    },
+    {
+      "id": "x-city-directions-aluljaro",
+      "hungarian": "aluljáró",
+      "english": "underpass",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "Az aluljáró a városban van.",
+      "exampleEnglish": "The underpass is in the city.",
+      "exampleAudioId": "ex-x-city-directions-aluljaro"
+    },
+    {
+      "id": "x-city-directions-postahivatal",
+      "hungarian": "postahivatal",
+      "english": "post office",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A postahivatal a városban van.",
+      "exampleEnglish": "The post office is in the city.",
+      "exampleAudioId": "ex-x-city-directions-postahivatal"
+    },
+    {
+      "id": "x-city-directions-bank",
+      "hungarian": "bank",
+      "english": "bank",
+      "kind": "word",
+      "topic": "City & directions",
+      "exampleHungarian": "A bank a városban van.",
+      "exampleEnglish": "The bank is in the city.",
+      "exampleAudioId": "ex-x-city-directions-bank"
+    },
+    {
+      "id": "x-travel-transport-repulogep",
+      "hungarian": "repülőgép",
+      "english": "airplane",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A repülőgép délben indul.",
+      "exampleEnglish": "The airplane leaves at noon.",
+      "exampleAudioId": "ex-x-travel-transport-repulogep"
+    },
+    {
+      "id": "x-travel-transport-repuloter",
+      "hungarian": "repülőtér",
+      "english": "airport",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A repülőtér közel van.",
+      "exampleEnglish": "The airport is nearby.",
+      "exampleAudioId": "ex-x-travel-transport-repuloter"
+    },
+    {
+      "id": "x-travel-transport-villamos",
+      "hungarian": "villamos",
+      "english": "tram",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A villamos késik.",
+      "exampleEnglish": "The tram is late.",
+      "exampleAudioId": "ex-x-travel-transport-villamos"
+    },
+    {
+      "id": "x-travel-transport-trolibusz",
+      "hungarian": "trolibusz",
+      "english": "trolleybus",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A trolibusz megáll a téren.",
+      "exampleEnglish": "The trolleybus stops in the square.",
+      "exampleAudioId": "ex-x-travel-transport-trolibusz"
+    },
+    {
+      "id": "x-travel-transport-taxi",
+      "hungarian": "taxi",
+      "english": "taxi",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A taxi az ajtó előtt vár.",
+      "exampleEnglish": "The taxi is waiting outside the door.",
+      "exampleAudioId": "ex-x-travel-transport-taxi"
+    },
+    {
+      "id": "x-travel-transport-hajo",
+      "hungarian": "hajó",
+      "english": "ship",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A hajó reggel indul.",
+      "exampleEnglish": "The ship leaves in the morning.",
+      "exampleAudioId": "ex-x-travel-transport-hajo"
+    },
+    {
+      "id": "x-travel-transport-kerekpar",
+      "hungarian": "kerékpár",
+      "english": "bicycle",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A kerékpár a ház előtt van.",
+      "exampleEnglish": "The bicycle is in front of the house.",
+      "exampleAudioId": "ex-x-travel-transport-kerekpar"
+    },
+    {
+      "id": "x-travel-transport-berlet",
+      "hungarian": "bérlet",
+      "english": "travel pass",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A bérlet egész hónapra érvényes.",
+      "exampleEnglish": "The travel pass is valid for the whole month.",
+      "exampleAudioId": "ex-x-travel-transport-berlet"
+    },
+    {
+      "id": "x-travel-transport-menetrend",
+      "hungarian": "menetrend",
+      "english": "timetable",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "Megnézem a menetrendet.",
+      "exampleEnglish": "I'll check the timetable.",
+      "exampleAudioId": "ex-x-travel-transport-menetrend"
+    },
+    {
+      "id": "x-travel-transport-peron",
+      "hungarian": "peron",
+      "english": "platform",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A vonat a második peronról indul.",
+      "exampleEnglish": "The train leaves from platform two.",
+      "exampleAudioId": "ex-x-travel-transport-peron"
+    },
+    {
+      "id": "x-travel-transport-indulas",
+      "hungarian": "indulás",
+      "english": "departure",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "Az indulás reggel hatkor lesz.",
+      "exampleEnglish": "Departure is at six in the morning.",
+      "exampleAudioId": "ex-x-travel-transport-indulas"
+    },
+    {
+      "id": "x-travel-transport-erkezes",
+      "hungarian": "érkezés",
+      "english": "arrival",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "Az érkezés este várható.",
+      "exampleEnglish": "Arrival is expected in the evening.",
+      "exampleAudioId": "ex-x-travel-transport-erkezes"
+    },
+    {
+      "id": "x-travel-transport-keses",
+      "hungarian": "késés",
+      "english": "delay",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A késés miatt lekéstük a csatlakozást.",
+      "exampleEnglish": "We missed the connection because of the delay.",
+      "exampleAudioId": "ex-x-travel-transport-keses"
+    },
+    {
+      "id": "x-travel-transport-atszallas",
+      "hungarian": "átszállás",
+      "english": "transfer",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "Az átszállás a következő állomáson van.",
+      "exampleEnglish": "The transfer is at the next station.",
+      "exampleAudioId": "ex-x-travel-transport-atszallas"
+    },
+    {
+      "id": "x-travel-transport-utlevel",
+      "hungarian": "útlevél",
+      "english": "passport",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "Az útlevelet magammal viszem.",
+      "exampleEnglish": "I'll take my passport with me.",
+      "exampleAudioId": "ex-x-travel-transport-utlevel"
+    },
+    {
+      "id": "x-travel-transport-borond",
+      "hungarian": "bőrönd",
+      "english": "suitcase",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A bőrönd nehéz.",
+      "exampleEnglish": "The suitcase is heavy.",
+      "exampleAudioId": "ex-x-travel-transport-borond"
+    },
+    {
+      "id": "x-travel-transport-hatizsak",
+      "hungarian": "hátizsák",
+      "english": "backpack",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A hátizsák a széken van.",
+      "exampleEnglish": "The backpack is on the chair.",
+      "exampleAudioId": "ex-x-travel-transport-hatizsak"
+    },
+    {
+      "id": "x-travel-transport-terkep",
+      "hungarian": "térkép",
+      "english": "map",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A térképen látom az utat.",
+      "exampleEnglish": "I can see the road on the map.",
+      "exampleAudioId": "ex-x-travel-transport-terkep"
+    },
+    {
+      "id": "x-travel-transport-foglalas",
+      "hungarian": "foglalás",
+      "english": "reservation",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A foglalás a nevemre szól.",
+      "exampleEnglish": "The reservation is under my name.",
+      "exampleAudioId": "ex-x-travel-transport-foglalas"
+    },
+    {
+      "id": "x-travel-transport-szallas",
+      "hungarian": "szállás",
+      "english": "accommodation",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A szállás a tó mellett van.",
+      "exampleEnglish": "The accommodation is beside the lake.",
+      "exampleAudioId": "ex-x-travel-transport-szallas"
+    },
+    {
+      "id": "x-travel-transport-utas",
+      "hungarian": "utas",
+      "english": "passenger",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "Az utas felszáll a buszra.",
+      "exampleEnglish": "The passenger gets on the bus.",
+      "exampleAudioId": "ex-x-travel-transport-utas"
+    },
+    {
+      "id": "x-travel-transport-sofor",
+      "hungarian": "sofőr",
+      "english": "driver",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A sofőr gyorsan vezet.",
+      "exampleEnglish": "The driver is driving fast.",
+      "exampleAudioId": "ex-x-travel-transport-sofor"
+    },
+    {
+      "id": "x-travel-transport-jegyautomata",
+      "hungarian": "jegyautomata",
+      "english": "ticket machine",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "A jegyautomata a megállóban van.",
+      "exampleEnglish": "The ticket machine is at the stop.",
+      "exampleAudioId": "ex-x-travel-transport-jegyautomata"
+    },
+    {
+      "id": "x-travel-transport-returjegy",
+      "hungarian": "retúrjegy",
+      "english": "return ticket",
+      "kind": "word",
+      "topic": "Travel & transport",
+      "exampleHungarian": "Retúrjegyet kérek Budapestre.",
+      "exampleEnglish": "I'd like a return ticket to Budapest.",
+      "exampleAudioId": "ex-x-travel-transport-returjegy"
+    },
+    {
+      "id": "x-work-study-iroda",
+      "hungarian": "iroda",
+      "english": "office",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "Az iroda fontos a munkában.",
+      "exampleEnglish": "The office is important at work.",
+      "exampleAudioId": "ex-x-work-study-iroda"
+    },
+    {
+      "id": "x-work-study-munkahely",
+      "hungarian": "munkahely",
+      "english": "workplace",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A munkahely fontos a munkában.",
+      "exampleEnglish": "The workplace is important at work.",
+      "exampleAudioId": "ex-x-work-study-munkahely"
+    },
+    {
+      "id": "x-work-study-fonok",
+      "hungarian": "főnök",
+      "english": "boss",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A főnök fontos a munkában.",
+      "exampleEnglish": "The boss is important at work.",
+      "exampleAudioId": "ex-x-work-study-fonok"
+    },
+    {
+      "id": "x-work-study-kollega",
+      "hungarian": "kolléga",
+      "english": "colleague",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A kolléga fontos a munkában.",
+      "exampleEnglish": "The colleague is important at work.",
+      "exampleAudioId": "ex-x-work-study-kollega"
+    },
+    {
+      "id": "x-work-study-csapat",
+      "hungarian": "csapat",
+      "english": "team",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A csapat fontos a munkában.",
+      "exampleEnglish": "The team is important at work.",
+      "exampleAudioId": "ex-x-work-study-csapat"
+    },
+    {
+      "id": "x-work-study-megbeszeles",
+      "hungarian": "megbeszélés",
+      "english": "meeting",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A megbeszélés fontos a munkában.",
+      "exampleEnglish": "The meeting is important at work.",
+      "exampleAudioId": "ex-x-work-study-megbeszeles"
+    },
+    {
+      "id": "x-work-study-feladat",
+      "hungarian": "feladat",
+      "english": "task",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A feladat fontos a munkában.",
+      "exampleEnglish": "The task is important at work.",
+      "exampleAudioId": "ex-x-work-study-feladat"
+    },
+    {
+      "id": "x-work-study-szunet",
+      "hungarian": "szünet",
+      "english": "break",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A szünet fontos a munkában.",
+      "exampleEnglish": "The break is important at work.",
+      "exampleAudioId": "ex-x-work-study-szunet"
+    },
+    {
+      "id": "x-work-study-projekt",
+      "hungarian": "projekt",
+      "english": "project",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A projekt fontos a munkában.",
+      "exampleEnglish": "The project is important at work.",
+      "exampleAudioId": "ex-x-work-study-projekt"
+    },
+    {
+      "id": "x-work-study-hatarido",
+      "hungarian": "határidő",
+      "english": "deadline",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A határidő fontos a munkában.",
+      "exampleEnglish": "The deadline is important at work.",
+      "exampleAudioId": "ex-x-work-study-hatarido"
+    },
+    {
+      "id": "x-work-study-fizetes",
+      "hungarian": "fizetés",
+      "english": "salary",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A fizetés fontos a munkában.",
+      "exampleEnglish": "The salary is important at work.",
+      "exampleAudioId": "ex-x-work-study-fizetes"
+    },
+    {
+      "id": "x-work-study-allas",
+      "hungarian": "állás",
+      "english": "job / position",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "Az állás fontos a munkában.",
+      "exampleEnglish": "The job is important at work.",
+      "exampleAudioId": "ex-x-work-study-allas"
+    },
+    {
+      "id": "x-work-study-oneletrajz",
+      "hungarian": "önéletrajz",
+      "english": "CV / résumé",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "Az önéletrajz fontos a munkában.",
+      "exampleEnglish": "The CV is important at work.",
+      "exampleAudioId": "ex-x-work-study-oneletrajz"
+    },
+    {
+      "id": "x-work-study-jelentkezes",
+      "hungarian": "jelentkezés",
+      "english": "application",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A jelentkezés fontos a munkában.",
+      "exampleEnglish": "The application is important at work.",
+      "exampleAudioId": "ex-x-work-study-jelentkezes"
+    },
+    {
+      "id": "x-work-study-interju",
+      "hungarian": "interjú",
+      "english": "interview",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "Az interjú fontos a munkában.",
+      "exampleEnglish": "The interview is important at work.",
+      "exampleAudioId": "ex-x-work-study-interju"
+    },
+    {
+      "id": "x-work-study-ugyfel",
+      "hungarian": "ügyfél",
+      "english": "client",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "Az ügyfél fontos a munkában.",
+      "exampleEnglish": "The client is important at work.",
+      "exampleAudioId": "ex-x-work-study-ugyfel"
+    },
+    {
+      "id": "x-work-study-nyomtato",
+      "hungarian": "nyomtató",
+      "english": "printer",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A nyomtató fontos a munkában.",
+      "exampleEnglish": "The printer is important at work.",
+      "exampleAudioId": "ex-x-work-study-nyomtato"
+    },
+    {
+      "id": "x-work-study-papir",
+      "hungarian": "papír",
+      "english": "paper",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A papír fontos a munkában.",
+      "exampleEnglish": "The paper is important at work.",
+      "exampleAudioId": "ex-x-work-study-papir"
+    },
+    {
+      "id": "x-work-study-toll",
+      "hungarian": "toll",
+      "english": "pen",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A toll fontos a munkában.",
+      "exampleEnglish": "The pen is important at work.",
+      "exampleAudioId": "ex-x-work-study-toll"
+    },
+    {
+      "id": "x-work-study-fuzet",
+      "hungarian": "füzet",
+      "english": "notebook",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A füzet fontos a munkában.",
+      "exampleEnglish": "The notebook is important at work.",
+      "exampleAudioId": "ex-x-work-study-fuzet"
+    },
+    {
+      "id": "x-work-study-tanar",
+      "hungarian": "tanár",
+      "english": "teacher",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A tanár fontos a munkában.",
+      "exampleEnglish": "The teacher is important at work.",
+      "exampleAudioId": "ex-x-work-study-tanar"
+    },
+    {
+      "id": "x-work-study-diak",
+      "hungarian": "diák",
+      "english": "student",
+      "kind": "word",
+      "topic": "Work & study",
+      "exampleHungarian": "A diák fontos a munkában.",
+      "exampleEnglish": "The student is important at work.",
+      "exampleAudioId": "ex-x-work-study-diak"
+    },
+    {
+      "id": "x-health-body-fej",
+      "hungarian": "fej",
+      "english": "head",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj a fejem.",
+      "exampleEnglish": "My head hurts.",
+      "exampleAudioId": "ex-x-health-body-fej"
+    },
+    {
+      "id": "x-health-body-arc",
+      "hungarian": "arc",
+      "english": "face",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Megmosom az arcom.",
+      "exampleEnglish": "I'll wash my face.",
+      "exampleAudioId": "ex-x-health-body-arc"
+    },
+    {
+      "id": "x-health-body-szem",
+      "hungarian": "szem",
+      "english": "eye",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "A szemem nagyon fáradt.",
+      "exampleEnglish": "My eye is very tired.",
+      "exampleAudioId": "ex-x-health-body-szem"
+    },
+    {
+      "id": "x-health-body-ful",
+      "hungarian": "fül",
+      "english": "ear",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj a fülem.",
+      "exampleEnglish": "My ear hurts.",
+      "exampleAudioId": "ex-x-health-body-ful"
+    },
+    {
+      "id": "x-health-body-orr",
+      "hungarian": "orr",
+      "english": "nose",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Az orrom piros.",
+      "exampleEnglish": "My nose is red.",
+      "exampleAudioId": "ex-x-health-body-orr"
+    },
+    {
+      "id": "x-health-body-szaj",
+      "hungarian": "száj",
+      "english": "mouth",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Tátva van a szája.",
+      "exampleEnglish": "His mouth is open.",
+      "exampleAudioId": "ex-x-health-body-szaj"
+    },
+    {
+      "id": "x-health-body-fog",
+      "hungarian": "fog",
+      "english": "tooth",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj a fogam.",
+      "exampleEnglish": "My tooth hurts.",
+      "exampleAudioId": "ex-x-health-body-fog"
+    },
+    {
+      "id": "x-health-body-nyak",
+      "hungarian": "nyak",
+      "english": "neck",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj a nyakam.",
+      "exampleEnglish": "My neck hurts.",
+      "exampleAudioId": "ex-x-health-body-nyak"
+    },
+    {
+      "id": "x-health-body-vall",
+      "hungarian": "váll",
+      "english": "shoulder",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj a vállam.",
+      "exampleEnglish": "My shoulder hurts.",
+      "exampleAudioId": "ex-x-health-body-vall"
+    },
+    {
+      "id": "x-health-body-kar",
+      "hungarian": "kar",
+      "english": "arm",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj a karom.",
+      "exampleEnglish": "My arm hurts.",
+      "exampleAudioId": "ex-x-health-body-kar"
+    },
+    {
+      "id": "x-health-body-kez",
+      "hungarian": "kéz",
+      "english": "hand",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj a kezem.",
+      "exampleEnglish": "My hand hurts.",
+      "exampleAudioId": "ex-x-health-body-kez"
+    },
+    {
+      "id": "x-health-body-ujj",
+      "hungarian": "ujj",
+      "english": "finger",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj az ujjam.",
+      "exampleEnglish": "My finger hurts.",
+      "exampleAudioId": "ex-x-health-body-ujj"
+    },
+    {
+      "id": "x-health-body-has",
+      "hungarian": "has",
+      "english": "stomach",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj a hasam.",
+      "exampleEnglish": "My stomach hurts.",
+      "exampleAudioId": "ex-x-health-body-has"
+    },
+    {
+      "id": "x-health-body-hat",
+      "hungarian": "hát",
+      "english": "back",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj a hátam.",
+      "exampleEnglish": "My back hurts.",
+      "exampleAudioId": "ex-x-health-body-hat"
+    },
+    {
+      "id": "x-health-body-lab",
+      "hungarian": "láb",
+      "english": "leg / foot",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Fáj a lábam.",
+      "exampleEnglish": "My leg hurts.",
+      "exampleAudioId": "ex-x-health-body-lab"
+    },
+    {
+      "id": "x-health-body-sziv",
+      "hungarian": "szív",
+      "english": "heart",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "A szívem gyorsan ver.",
+      "exampleEnglish": "My heart is beating fast.",
+      "exampleAudioId": "ex-x-health-body-sziv"
+    },
+    {
+      "id": "x-health-body-laz",
+      "hungarian": "láz",
+      "english": "fever",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Magas lázam van.",
+      "exampleEnglish": "I have a high fever.",
+      "exampleAudioId": "ex-x-health-body-laz"
+    },
+    {
+      "id": "x-health-body-kohoges",
+      "hungarian": "köhögés",
+      "english": "cough",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "A köhögés zavar éjszaka.",
+      "exampleEnglish": "The cough bothers me at night.",
+      "exampleAudioId": "ex-x-health-body-kohoges"
+    },
+    {
+      "id": "x-health-body-fajdalom",
+      "hungarian": "fájdalom",
+      "english": "pain",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Erős fájdalmat érzek.",
+      "exampleEnglish": "I feel severe pain.",
+      "exampleAudioId": "ex-x-health-body-fajdalom"
+    },
+    {
+      "id": "x-health-body-gyogyszer",
+      "hungarian": "gyógyszer",
+      "english": "medicine",
+      "kind": "word",
+      "topic": "Health & body",
+      "exampleHungarian": "Beveszem a gyógyszert.",
+      "exampleEnglish": "I'll take the medicine.",
+      "exampleAudioId": "ex-x-health-body-gyogyszer"
+    },
+    {
+      "id": "x-people-relationships-anya",
+      "hungarian": "anya",
+      "english": "mother",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "Az anya már itt van.",
+      "exampleEnglish": "The mother is already here.",
+      "exampleAudioId": "ex-x-people-relationships-anya"
+    },
+    {
+      "id": "x-people-relationships-apa",
+      "hungarian": "apa",
+      "english": "father",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "Az apa már itt van.",
+      "exampleEnglish": "The father is already here.",
+      "exampleAudioId": "ex-x-people-relationships-apa"
+    },
+    {
+      "id": "x-people-relationships-anyuka",
+      "hungarian": "anyuka",
+      "english": "mom (affectionate)",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "Az anyuka már itt van.",
+      "exampleEnglish": "The mom is already here.",
+      "exampleAudioId": "ex-x-people-relationships-anyuka"
+    },
+    {
+      "id": "x-people-relationships-apuka",
+      "hungarian": "apuka",
+      "english": "dad (affectionate)",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "Az apuka már itt van.",
+      "exampleEnglish": "The dad is already here.",
+      "exampleAudioId": "ex-x-people-relationships-apuka"
+    },
+    {
+      "id": "x-people-relationships-baty",
+      "hungarian": "báty",
+      "english": "older brother",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "A báty már itt van.",
+      "exampleEnglish": "The older brother is already here.",
+      "exampleAudioId": "ex-x-people-relationships-baty"
+    },
+    {
+      "id": "x-people-relationships-ocs",
+      "hungarian": "öcs",
+      "english": "younger brother",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "Az öcs már itt van.",
+      "exampleEnglish": "The younger brother is already here.",
+      "exampleAudioId": "ex-x-people-relationships-ocs"
+    },
+    {
+      "id": "x-people-relationships-nover",
+      "hungarian": "nővér",
+      "english": "older sister / nurse",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "A nővér már itt van.",
+      "exampleEnglish": "The older sister is already here.",
+      "exampleAudioId": "ex-x-people-relationships-nover"
+    },
+    {
+      "id": "x-people-relationships-hug",
+      "hungarian": "húg",
+      "english": "younger sister",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "A húg már itt van.",
+      "exampleEnglish": "The younger sister is already here.",
+      "exampleAudioId": "ex-x-people-relationships-hug"
+    },
+    {
+      "id": "x-people-relationships-szulo",
+      "hungarian": "szülő",
+      "english": "parent",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "A szülő már itt van.",
+      "exampleEnglish": "The parent is already here.",
+      "exampleAudioId": "ex-x-people-relationships-szulo"
+    },
+    {
+      "id": "x-people-relationships-gyerek",
+      "hungarian": "gyerek",
+      "english": "child",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "A gyerek már itt van.",
+      "exampleEnglish": "The child is already here.",
+      "exampleAudioId": "ex-x-people-relationships-gyerek"
+    },
+    {
+      "id": "x-people-relationships-iker",
+      "hungarian": "iker",
+      "english": "twin",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "Az iker már itt van.",
+      "exampleEnglish": "The twin is already here.",
+      "exampleAudioId": "ex-x-people-relationships-iker"
+    },
+    {
+      "id": "x-people-relationships-unokahug",
+      "hungarian": "unokahúg",
+      "english": "niece",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "Az unokahúg már itt van.",
+      "exampleEnglish": "The niece is already here.",
+      "exampleAudioId": "ex-x-people-relationships-unokahug"
+    },
+    {
+      "id": "x-people-relationships-unokaocs",
+      "hungarian": "unokaöcs",
+      "english": "nephew",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "Az unokaöcs már itt van.",
+      "exampleEnglish": "The nephew is already here.",
+      "exampleAudioId": "ex-x-people-relationships-unokaocs"
+    },
+    {
+      "id": "x-people-relationships-nagyneni",
+      "hungarian": "nagynéni",
+      "english": "aunt",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "A nagynéni már itt van.",
+      "exampleEnglish": "The aunt is already here.",
+      "exampleAudioId": "ex-x-people-relationships-nagyneni"
+    },
+    {
+      "id": "x-people-relationships-nagybacsi",
+      "hungarian": "nagybácsi",
+      "english": "uncle",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "A nagybácsi már itt van.",
+      "exampleEnglish": "The uncle is already here.",
+      "exampleAudioId": "ex-x-people-relationships-nagybacsi"
+    },
+    {
+      "id": "x-people-relationships-unoka",
+      "hungarian": "unoka",
+      "english": "grandchild",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "Az unoka már itt van.",
+      "exampleEnglish": "The grandchild is already here.",
+      "exampleAudioId": "ex-x-people-relationships-unoka"
+    },
+    {
+      "id": "x-people-relationships-par",
+      "hungarian": "pár",
+      "english": "partner / couple",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "A pár már itt van.",
+      "exampleEnglish": "The partner is already here.",
+      "exampleAudioId": "ex-x-people-relationships-par"
+    },
+    {
+      "id": "x-people-relationships-szomszed",
+      "hungarian": "szomszéd",
+      "english": "neighbor",
+      "kind": "word",
+      "topic": "People & relationships",
+      "exampleHungarian": "A szomszéd már itt van.",
+      "exampleEnglish": "The neighbor is already here.",
+      "exampleAudioId": "ex-x-people-relationships-szomszed"
+    },
+    {
+      "id": "x-time-weather-tavasz",
+      "hungarian": "tavasz",
+      "english": "spring",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Tavasszal virágoznak a fák.",
+      "exampleEnglish": "The trees blossom in spring.",
+      "exampleAudioId": "ex-x-time-weather-tavasz"
+    },
+    {
+      "id": "x-time-weather-nyar",
+      "hungarian": "nyár",
+      "english": "summer",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Nyáron sokat süt a nap.",
+      "exampleEnglish": "The sun shines a lot in summer.",
+      "exampleAudioId": "ex-x-time-weather-nyar"
+    },
+    {
+      "id": "x-time-weather-osz",
+      "hungarian": "ősz",
+      "english": "autumn",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Ősszel lehullanak a levelek.",
+      "exampleEnglish": "The leaves fall in autumn.",
+      "exampleAudioId": "ex-x-time-weather-osz"
+    },
+    {
+      "id": "x-time-weather-tel",
+      "hungarian": "tél",
+      "english": "winter",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Télen gyakran havazik.",
+      "exampleEnglish": "It often snows in winter.",
+      "exampleAudioId": "ex-x-time-weather-tel"
+    },
+    {
+      "id": "x-time-weather-reggel",
+      "hungarian": "reggel",
+      "english": "morning",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Reggel kávét iszom.",
+      "exampleEnglish": "I drink coffee in the morning.",
+      "exampleAudioId": "ex-x-time-weather-reggel"
+    },
+    {
+      "id": "x-time-weather-delutan",
+      "hungarian": "délután",
+      "english": "afternoon",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Délután találkozunk.",
+      "exampleEnglish": "We'll meet in the afternoon.",
+      "exampleAudioId": "ex-x-time-weather-delutan"
+    },
+    {
+      "id": "x-time-weather-este",
+      "hungarian": "este",
+      "english": "evening",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Este otthon vagyok.",
+      "exampleEnglish": "I'm at home in the evening.",
+      "exampleAudioId": "ex-x-time-weather-este"
+    },
+    {
+      "id": "x-time-weather-ejszaka",
+      "hungarian": "éjszaka",
+      "english": "night",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Éjszaka csend van.",
+      "exampleEnglish": "It's quiet at night.",
+      "exampleAudioId": "ex-x-time-weather-ejszaka"
+    },
+    {
+      "id": "x-time-weather-perc",
+      "hungarian": "perc",
+      "english": "minute",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Várj egy percet!",
+      "exampleEnglish": "Wait a minute!",
+      "exampleAudioId": "ex-x-time-weather-perc"
+    },
+    {
+      "id": "x-time-weather-ora",
+      "hungarian": "óra",
+      "english": "hour / clock",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Az óra háromkor kezdődik.",
+      "exampleEnglish": "The lesson starts at three.",
+      "exampleAudioId": "ex-x-time-weather-ora"
+    },
+    {
+      "id": "x-time-weather-het",
+      "hungarian": "hét",
+      "english": "week",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Egy hét múlva indulunk.",
+      "exampleEnglish": "We're leaving in a week.",
+      "exampleAudioId": "ex-x-time-weather-het"
+    },
+    {
+      "id": "x-time-weather-honap",
+      "hungarian": "hónap",
+      "english": "month",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "A hónap végén utazom.",
+      "exampleEnglish": "I'm traveling at the end of the month.",
+      "exampleAudioId": "ex-x-time-weather-honap"
+    },
+    {
+      "id": "x-time-weather-ev",
+      "hungarian": "év",
+      "english": "year",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Egy év múlva hazautazom.",
+      "exampleEnglish": "I'll travel home in a year.",
+      "exampleAudioId": "ex-x-time-weather-ev"
+    },
+    {
+      "id": "x-time-weather-hetvege",
+      "hungarian": "hétvége",
+      "english": "weekend",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Hétvégén pihenek.",
+      "exampleEnglish": "I rest at the weekend.",
+      "exampleAudioId": "ex-x-time-weather-hetvege"
+    },
+    {
+      "id": "x-time-weather-tegnap",
+      "hungarian": "tegnap",
+      "english": "yesterday",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Tegnap esett az eső.",
+      "exampleEnglish": "It rained yesterday.",
+      "exampleAudioId": "ex-x-time-weather-tegnap"
+    },
+    {
+      "id": "x-time-weather-tegnapelott",
+      "hungarian": "tegnapelőtt",
+      "english": "day before yesterday",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Tegnapelőtt moziba mentünk.",
+      "exampleEnglish": "We went to the cinema the day before yesterday.",
+      "exampleAudioId": "ex-x-time-weather-tegnapelott"
+    },
+    {
+      "id": "x-time-weather-koran",
+      "hungarian": "korán",
+      "english": "early",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Ma korán kelek.",
+      "exampleEnglish": "I'm getting up early today.",
+      "exampleAudioId": "ex-x-time-weather-koran"
+    },
+    {
+      "id": "x-time-weather-keson",
+      "hungarian": "későn",
+      "english": "late",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Tegnap későn feküdtem le.",
+      "exampleEnglish": "I went to bed late yesterday.",
+      "exampleAudioId": "ex-x-time-weather-keson"
+    },
+    {
+      "id": "x-time-weather-eso",
+      "hungarian": "eső",
+      "english": "rain",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Eső esik.",
+      "exampleEnglish": "It's raining.",
+      "exampleAudioId": "ex-x-time-weather-eso"
+    },
+    {
+      "id": "x-time-weather-ho",
+      "hungarian": "hó",
+      "english": "snow",
+      "kind": "word",
+      "topic": "Time & weather",
+      "exampleHungarian": "Télen hó esik.",
+      "exampleEnglish": "It snows in winter.",
+      "exampleAudioId": "ex-x-time-weather-ho"
+    },
+    {
+      "id": "x-nature-animals-kutya",
+      "hungarian": "kutya",
+      "english": "dog",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A kutya nagyon szép.",
+      "exampleEnglish": "The dog is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-kutya"
+    },
+    {
+      "id": "x-nature-animals-macska",
+      "hungarian": "macska",
+      "english": "cat",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A macska nagyon szép.",
+      "exampleEnglish": "The cat is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-macska"
+    },
+    {
+      "id": "x-nature-animals-lo",
+      "hungarian": "ló",
+      "english": "horse",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A ló nagyon szép.",
+      "exampleEnglish": "The horse is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-lo"
+    },
+    {
+      "id": "x-nature-animals-tehen",
+      "hungarian": "tehén",
+      "english": "cow",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A tehén nagyon szép.",
+      "exampleEnglish": "The cow is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-tehen"
+    },
+    {
+      "id": "x-nature-animals-juh",
+      "hungarian": "juh",
+      "english": "sheep",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A juh nagyon szép.",
+      "exampleEnglish": "The sheep is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-juh"
+    },
+    {
+      "id": "x-nature-animals-kecske",
+      "hungarian": "kecske",
+      "english": "goat",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A kecske nagyon szép.",
+      "exampleEnglish": "The goat is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-kecske"
+    },
+    {
+      "id": "x-nature-animals-diszno",
+      "hungarian": "disznó",
+      "english": "pig",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A disznó nagyon szép.",
+      "exampleEnglish": "The pig is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-diszno"
+    },
+    {
+      "id": "x-nature-animals-tyuk",
+      "hungarian": "tyúk",
+      "english": "hen",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A tyúk nagyon szép.",
+      "exampleEnglish": "The hen is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-tyuk"
+    },
+    {
+      "id": "x-nature-animals-kacsa",
+      "hungarian": "kacsa",
+      "english": "duck",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A kacsa nagyon szép.",
+      "exampleEnglish": "The duck is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-kacsa"
+    },
+    {
+      "id": "x-nature-animals-nyul",
+      "hungarian": "nyúl",
+      "english": "rabbit",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A nyúl nagyon szép.",
+      "exampleEnglish": "The rabbit is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-nyul"
+    },
+    {
+      "id": "x-nature-animals-eger",
+      "hungarian": "egér",
+      "english": "mouse",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "Az egér nagyon szép.",
+      "exampleEnglish": "The mouse is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-eger"
+    },
+    {
+      "id": "x-nature-animals-medve",
+      "hungarian": "medve",
+      "english": "bear",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A medve nagyon szép.",
+      "exampleEnglish": "The bear is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-medve"
+    },
+    {
+      "id": "x-nature-animals-roka",
+      "hungarian": "róka",
+      "english": "fox",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A róka nagyon szép.",
+      "exampleEnglish": "The fox is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-roka"
+    },
+    {
+      "id": "x-nature-animals-farkas",
+      "hungarian": "farkas",
+      "english": "wolf",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A farkas nagyon szép.",
+      "exampleEnglish": "The wolf is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-farkas"
+    },
+    {
+      "id": "x-nature-animals-szarvas",
+      "hungarian": "szarvas",
+      "english": "deer",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A szarvas nagyon szép.",
+      "exampleEnglish": "The deer is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-szarvas"
+    },
+    {
+      "id": "x-nature-animals-meh",
+      "hungarian": "méh",
+      "english": "bee",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A méh nagyon szép.",
+      "exampleEnglish": "The bee is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-meh"
+    },
+    {
+      "id": "x-nature-animals-pillango",
+      "hungarian": "pillangó",
+      "english": "butterfly",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A pillangó nagyon szép.",
+      "exampleEnglish": "The butterfly is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-pillango"
+    },
+    {
+      "id": "x-nature-animals-fa",
+      "hungarian": "fa",
+      "english": "tree",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A fa nagyon szép.",
+      "exampleEnglish": "The tree is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-fa"
+    },
+    {
+      "id": "x-nature-animals-virag",
+      "hungarian": "virág",
+      "english": "flower",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A virág nagyon szép.",
+      "exampleEnglish": "The flower is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-virag"
+    },
+    {
+      "id": "x-nature-animals-erdo",
+      "hungarian": "erdő",
+      "english": "forest",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "Az erdő nagyon szép.",
+      "exampleEnglish": "The forest is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-erdo"
+    },
+    {
+      "id": "x-nature-animals-to",
+      "hungarian": "tó",
+      "english": "lake",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A tó nagyon szép.",
+      "exampleEnglish": "The lake is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-to"
+    },
+    {
+      "id": "x-nature-animals-folyo",
+      "hungarian": "folyó",
+      "english": "river",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A folyó nagyon szép.",
+      "exampleEnglish": "The river is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-folyo"
+    },
+    {
+      "id": "x-nature-animals-hegy",
+      "hungarian": "hegy",
+      "english": "mountain",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A hegy nagyon szép.",
+      "exampleEnglish": "The mountain is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-hegy"
+    },
+    {
+      "id": "x-nature-animals-tenger",
+      "hungarian": "tenger",
+      "english": "sea",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A tenger nagyon szép.",
+      "exampleEnglish": "The sea is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-tenger"
+    },
+    {
+      "id": "x-nature-animals-felho",
+      "hungarian": "felhő",
+      "english": "cloud",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A felhő nagyon szép.",
+      "exampleEnglish": "The cloud is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-felho"
+    },
+    {
+      "id": "x-nature-animals-csillag",
+      "hungarian": "csillag",
+      "english": "star",
+      "kind": "word",
+      "topic": "Nature & animals",
+      "exampleHungarian": "A csillag nagyon szép.",
+      "exampleEnglish": "The star is very beautiful.",
+      "exampleAudioId": "ex-x-nature-animals-csillag"
+    },
+    {
+      "id": "x-technology-szamitogep",
+      "hungarian": "számítógép",
+      "english": "computer",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A számítógép jól működik.",
+      "exampleEnglish": "The computer works well.",
+      "exampleAudioId": "ex-x-technology-szamitogep"
+    },
+    {
+      "id": "x-technology-laptop",
+      "hungarian": "laptop",
+      "english": "laptop",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A laptop jól működik.",
+      "exampleEnglish": "The laptop works well.",
+      "exampleAudioId": "ex-x-technology-laptop"
+    },
+    {
+      "id": "x-technology-mobiltelefon",
+      "hungarian": "mobiltelefon",
+      "english": "mobile phone",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A mobiltelefon jól működik.",
+      "exampleEnglish": "The mobile phone works well.",
+      "exampleAudioId": "ex-x-technology-mobiltelefon"
+    },
+    {
+      "id": "x-technology-kepernyo",
+      "hungarian": "képernyő",
+      "english": "screen",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A képernyő jól működik.",
+      "exampleEnglish": "The screen works well.",
+      "exampleAudioId": "ex-x-technology-kepernyo"
+    },
+    {
+      "id": "x-technology-billentyuzet",
+      "hungarian": "billentyűzet",
+      "english": "keyboard",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A billentyűzet jól működik.",
+      "exampleEnglish": "The keyboard works well.",
+      "exampleAudioId": "ex-x-technology-billentyuzet"
+    },
+    {
+      "id": "x-technology-eger",
+      "hungarian": "egér",
+      "english": "computer mouse",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "Az egér jól működik.",
+      "exampleEnglish": "The computer mouse works well.",
+      "exampleAudioId": "ex-x-technology-eger"
+    },
+    {
+      "id": "x-technology-tolto",
+      "hungarian": "töltő",
+      "english": "charger",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A töltő jól működik.",
+      "exampleEnglish": "The charger works well.",
+      "exampleAudioId": "ex-x-technology-tolto"
+    },
+    {
+      "id": "x-technology-akkumulator",
+      "hungarian": "akkumulátor",
+      "english": "battery",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "Az akkumulátor jól működik.",
+      "exampleEnglish": "The battery works well.",
+      "exampleAudioId": "ex-x-technology-akkumulator"
+    },
+    {
+      "id": "x-technology-elem",
+      "hungarian": "elem",
+      "english": "battery cell",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "Az elem jól működik.",
+      "exampleEnglish": "The battery cell works well.",
+      "exampleAudioId": "ex-x-technology-elem"
+    },
+    {
+      "id": "x-technology-kabel",
+      "hungarian": "kábel",
+      "english": "cable",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A kábel jól működik.",
+      "exampleEnglish": "The cable works well.",
+      "exampleAudioId": "ex-x-technology-kabel"
+    },
+    {
+      "id": "x-technology-internet",
+      "hungarian": "internet",
+      "english": "internet",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "Az internet jól működik.",
+      "exampleEnglish": "The internet works well.",
+      "exampleAudioId": "ex-x-technology-internet"
+    },
+    {
+      "id": "x-technology-weboldal",
+      "hungarian": "weboldal",
+      "english": "website",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A weboldal jól működik.",
+      "exampleEnglish": "The website works well.",
+      "exampleAudioId": "ex-x-technology-weboldal"
+    },
+    {
+      "id": "x-technology-jelszo",
+      "hungarian": "jelszó",
+      "english": "password",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A jelszó jól működik.",
+      "exampleEnglish": "The password works well.",
+      "exampleAudioId": "ex-x-technology-jelszo"
+    },
+    {
+      "id": "x-technology-fajl",
+      "hungarian": "fájl",
+      "english": "file",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A fájl jól működik.",
+      "exampleEnglish": "The file works well.",
+      "exampleAudioId": "ex-x-technology-fajl"
+    },
+    {
+      "id": "x-technology-mappa",
+      "hungarian": "mappa",
+      "english": "folder",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A mappa jól működik.",
+      "exampleEnglish": "The folder works well.",
+      "exampleAudioId": "ex-x-technology-mappa"
+    },
+    {
+      "id": "x-technology-alkalmazas",
+      "hungarian": "alkalmazás",
+      "english": "app",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "Az alkalmazás jól működik.",
+      "exampleEnglish": "The app works well.",
+      "exampleAudioId": "ex-x-technology-alkalmazas"
+    },
+    {
+      "id": "x-technology-uzenet",
+      "hungarian": "üzenet",
+      "english": "message",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "Az üzenet jól működik.",
+      "exampleEnglish": "The message works well.",
+      "exampleAudioId": "ex-x-technology-uzenet"
+    },
+    {
+      "id": "x-technology-fenykep",
+      "hungarian": "fénykép",
+      "english": "photograph",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A fénykép jól működik.",
+      "exampleEnglish": "The photograph works well.",
+      "exampleAudioId": "ex-x-technology-fenykep"
+    },
+    {
+      "id": "x-technology-video",
+      "hungarian": "videó",
+      "english": "video",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A videó jól működik.",
+      "exampleEnglish": "The video works well.",
+      "exampleAudioId": "ex-x-technology-video"
+    },
+    {
+      "id": "x-technology-kamera",
+      "hungarian": "kamera",
+      "english": "camera",
+      "kind": "word",
+      "topic": "Technology",
+      "exampleHungarian": "A kamera jól működik.",
+      "exampleEnglish": "The camera works well.",
+      "exampleAudioId": "ex-x-technology-kamera"
+    },
+    {
+      "id": "x-leisure-hobbies-zene",
+      "hungarian": "zene",
+      "english": "music",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A zene megnyugtat.",
+      "exampleEnglish": "Music helps me relax.",
+      "exampleAudioId": "ex-x-leisure-hobbies-zene"
+    },
+    {
+      "id": "x-leisure-hobbies-dal",
+      "hungarian": "dal",
+      "english": "song",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "Ez a dal nagyon szép.",
+      "exampleEnglish": "This song is very beautiful.",
+      "exampleAudioId": "ex-x-leisure-hobbies-dal"
+    },
+    {
+      "id": "x-leisure-hobbies-film",
+      "hungarian": "film",
+      "english": "movie",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A film érdekes.",
+      "exampleEnglish": "The movie is interesting.",
+      "exampleAudioId": "ex-x-leisure-hobbies-film"
+    },
+    {
+      "id": "x-leisure-hobbies-konyv",
+      "hungarian": "könyv",
+      "english": "book",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A könyv izgalmas.",
+      "exampleEnglish": "The book is exciting.",
+      "exampleAudioId": "ex-x-leisure-hobbies-konyv"
+    },
+    {
+      "id": "x-leisure-hobbies-jatek",
+      "hungarian": "játék",
+      "english": "game",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A játék nagyon szórakoztató.",
+      "exampleEnglish": "The game is very entertaining.",
+      "exampleAudioId": "ex-x-leisure-hobbies-jatek"
+    },
+    {
+      "id": "x-leisure-hobbies-sport",
+      "hungarian": "sport",
+      "english": "sport",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A sport egészséges.",
+      "exampleEnglish": "Sport is healthy.",
+      "exampleAudioId": "ex-x-leisure-hobbies-sport"
+    },
+    {
+      "id": "x-leisure-hobbies-foci",
+      "hungarian": "foci",
+      "english": "football",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A foci a kedvenc sportom.",
+      "exampleEnglish": "Football is my favorite sport.",
+      "exampleAudioId": "ex-x-leisure-hobbies-foci"
+    },
+    {
+      "id": "x-leisure-hobbies-uszas",
+      "hungarian": "úszás",
+      "english": "swimming",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "Az úszás jó mozgás.",
+      "exampleEnglish": "Swimming is good exercise.",
+      "exampleAudioId": "ex-x-leisure-hobbies-uszas"
+    },
+    {
+      "id": "x-leisure-hobbies-futas",
+      "hungarian": "futás",
+      "english": "running",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A futás jó reggel.",
+      "exampleEnglish": "Running is good in the morning.",
+      "exampleAudioId": "ex-x-leisure-hobbies-futas"
+    },
+    {
+      "id": "x-leisure-hobbies-seta",
+      "hungarian": "séta",
+      "english": "walk",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A séta segít pihenni.",
+      "exampleEnglish": "A walk helps me relax.",
+      "exampleAudioId": "ex-x-leisure-hobbies-seta"
+    },
+    {
+      "id": "x-leisure-hobbies-tanc",
+      "hungarian": "tánc",
+      "english": "dance",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A tánc jó mozgás.",
+      "exampleEnglish": "Dancing is good exercise.",
+      "exampleAudioId": "ex-x-leisure-hobbies-tanc"
+    },
+    {
+      "id": "x-leisure-hobbies-fozes",
+      "hungarian": "főzés",
+      "english": "cooking",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A főzés kikapcsol.",
+      "exampleEnglish": "Cooking helps me unwind.",
+      "exampleAudioId": "ex-x-leisure-hobbies-fozes"
+    },
+    {
+      "id": "x-leisure-hobbies-festes",
+      "hungarian": "festés",
+      "english": "painting",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A festés megnyugtat.",
+      "exampleEnglish": "Painting helps me relax.",
+      "exampleAudioId": "ex-x-leisure-hobbies-festes"
+    },
+    {
+      "id": "x-leisure-hobbies-hobbi",
+      "hungarian": "hobbi",
+      "english": "hobby",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A fotózás a hobbim.",
+      "exampleEnglish": "Photography is my hobby.",
+      "exampleAudioId": "ex-x-leisure-hobbies-hobbi"
+    },
+    {
+      "id": "x-leisure-hobbies-vakacio",
+      "hungarian": "vakáció",
+      "english": "vacation",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A vakáció jövő héten kezdődik.",
+      "exampleEnglish": "Vacation starts next week.",
+      "exampleAudioId": "ex-x-leisure-hobbies-vakacio"
+    },
+    {
+      "id": "x-leisure-hobbies-kirandulas",
+      "hungarian": "kirándulás",
+      "english": "hike / day trip",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A kirándulás holnap lesz.",
+      "exampleEnglish": "The day trip is tomorrow.",
+      "exampleAudioId": "ex-x-leisure-hobbies-kirandulas"
+    },
+    {
+      "id": "x-leisure-hobbies-koncert",
+      "hungarian": "koncert",
+      "english": "concert",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A koncert este kezdődik.",
+      "exampleEnglish": "The concert starts this evening.",
+      "exampleAudioId": "ex-x-leisure-hobbies-koncert"
+    },
+    {
+      "id": "x-leisure-hobbies-szabadido",
+      "hungarian": "szabadidő",
+      "english": "free time",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A szabadidő nagyon fontos.",
+      "exampleEnglish": "Free time is very important.",
+      "exampleAudioId": "ex-x-leisure-hobbies-szabadido"
+    },
+    {
+      "id": "x-leisure-hobbies-fotozas",
+      "hungarian": "fotózás",
+      "english": "photography",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A fotózás a hobbim.",
+      "exampleEnglish": "Photography is my hobby.",
+      "exampleAudioId": "ex-x-leisure-hobbies-fotozas"
+    },
+    {
+      "id": "x-leisure-hobbies-tarsasjatek",
+      "hungarian": "társasjáték",
+      "english": "board game",
+      "kind": "word",
+      "topic": "Leisure & hobbies",
+      "exampleHungarian": "A társasjátékot együtt játsszuk.",
+      "exampleEnglish": "We play the board game together.",
+      "exampleAudioId": "ex-x-leisure-hobbies-tarsasjatek"
+    },
+    {
+      "id": "x-common-verbs-var",
+      "hungarian": "vár",
+      "english": "waits",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A buszmegállóban várok.",
+      "exampleEnglish": "I wait at the bus stop.",
+      "exampleAudioId": "ex-x-common-verbs-var"
+    },
+    {
+      "id": "x-common-verbs-alszik",
+      "hungarian": "alszik",
+      "english": "sleeps",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A gyerek alszik.",
+      "exampleEnglish": "The child is sleeping.",
+      "exampleAudioId": "ex-x-common-verbs-alszik"
+    },
+    {
+      "id": "x-common-verbs-fut",
+      "hungarian": "fut",
+      "english": "runs",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A fiú gyorsan fut.",
+      "exampleEnglish": "The boy runs quickly.",
+      "exampleAudioId": "ex-x-common-verbs-fut"
+    },
+    {
+      "id": "x-common-verbs-setal",
+      "hungarian": "sétál",
+      "english": "walks",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A barátom a parkban sétál.",
+      "exampleEnglish": "My friend is walking in the park.",
+      "exampleAudioId": "ex-x-common-verbs-setal"
+    },
+    {
+      "id": "x-common-verbs-hallgat",
+      "hungarian": "hallgat",
+      "english": "listens",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A lány zenét hallgat.",
+      "exampleEnglish": "The girl is listening to music.",
+      "exampleAudioId": "ex-x-common-verbs-hallgat"
+    },
+    {
+      "id": "x-common-verbs-nez",
+      "hungarian": "néz",
+      "english": "watches",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A család filmet néz.",
+      "exampleEnglish": "The family is watching a movie.",
+      "exampleAudioId": "ex-x-common-verbs-nez"
+    },
+    {
+      "id": "x-common-verbs-olvas",
+      "hungarian": "olvas",
+      "english": "reads",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A tanár egy könyvet olvas.",
+      "exampleEnglish": "The teacher is reading a book.",
+      "exampleAudioId": "ex-x-common-verbs-olvas"
+    },
+    {
+      "id": "x-common-verbs-ir",
+      "hungarian": "ír",
+      "english": "writes",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A diák levelet ír.",
+      "exampleEnglish": "The student is writing a letter.",
+      "exampleAudioId": "ex-x-common-verbs-ir"
+    },
+    {
+      "id": "x-common-verbs-tanul",
+      "hungarian": "tanul",
+      "english": "studies",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A barátom magyarul tanul.",
+      "exampleEnglish": "My friend is studying Hungarian.",
+      "exampleAudioId": "ex-x-common-verbs-tanul"
+    },
+    {
+      "id": "x-common-verbs-dolgozik",
+      "hungarian": "dolgozik",
+      "english": "works",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "Az anya otthonról dolgozik.",
+      "exampleEnglish": "The mother works from home.",
+      "exampleAudioId": "ex-x-common-verbs-dolgozik"
+    },
+    {
+      "id": "x-common-verbs-foz",
+      "hungarian": "főz",
+      "english": "cooks",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "Az apa vacsorát főz.",
+      "exampleEnglish": "The father is cooking dinner.",
+      "exampleAudioId": "ex-x-common-verbs-foz"
+    },
+    {
+      "id": "x-common-verbs-mos",
+      "hungarian": "mos",
+      "english": "washes",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A fiú kezet mos.",
+      "exampleEnglish": "The boy is washing his hands.",
+      "exampleAudioId": "ex-x-common-verbs-mos"
+    },
+    {
+      "id": "x-common-verbs-takarit",
+      "hungarian": "takarít",
+      "english": "cleans",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A család szombaton takarít.",
+      "exampleEnglish": "The family cleans on Saturday.",
+      "exampleAudioId": "ex-x-common-verbs-takarit"
+    },
+    {
+      "id": "x-common-verbs-vasarol",
+      "hungarian": "vásárol",
+      "english": "shops",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A vásárló kenyeret vásárol.",
+      "exampleEnglish": "The customer is buying bread.",
+      "exampleAudioId": "ex-x-common-verbs-vasarol"
+    },
+    {
+      "id": "x-common-verbs-fizet",
+      "hungarian": "fizet",
+      "english": "pays",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A férfi készpénzzel fizet.",
+      "exampleEnglish": "The man is paying in cash.",
+      "exampleAudioId": "ex-x-common-verbs-fizet"
+    },
+    {
+      "id": "x-common-verbs-ker",
+      "hungarian": "kér",
+      "english": "asks",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A vendég egy pohár vizet kér.",
+      "exampleEnglish": "The guest asks for a glass of water.",
+      "exampleAudioId": "ex-x-common-verbs-ker"
+    },
+    {
+      "id": "x-common-verbs-ad",
+      "hungarian": "ad",
+      "english": "gives",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A tanár feladatot ad.",
+      "exampleEnglish": "The teacher gives an assignment.",
+      "exampleAudioId": "ex-x-common-verbs-ad"
+    },
+    {
+      "id": "x-common-verbs-kap",
+      "hungarian": "kap",
+      "english": "receives",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A lány üzenetet kap.",
+      "exampleEnglish": "The girl receives a message.",
+      "exampleAudioId": "ex-x-common-verbs-kap"
+    },
+    {
+      "id": "x-common-verbs-segit",
+      "hungarian": "segít",
+      "english": "helps",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A szomszéd segít nekünk.",
+      "exampleEnglish": "The neighbor helps us.",
+      "exampleAudioId": "ex-x-common-verbs-segit"
+    },
+    {
+      "id": "x-common-verbs-keres",
+      "hungarian": "keres",
+      "english": "looks for",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A fiú egy kulcsot keres.",
+      "exampleEnglish": "The boy is looking for a key.",
+      "exampleAudioId": "ex-x-common-verbs-keres"
+    },
+    {
+      "id": "x-common-verbs-talal",
+      "hungarian": "talál",
+      "english": "finds",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A nő egy jó boltot talál.",
+      "exampleEnglish": "The woman finds a good shop.",
+      "exampleAudioId": "ex-x-common-verbs-talal"
+    },
+    {
+      "id": "x-common-verbs-hiv",
+      "hungarian": "hív",
+      "english": "calls",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A fiú felhívja az anyukáját.",
+      "exampleEnglish": "The boy calls his mom.",
+      "exampleAudioId": "ex-x-common-verbs-hiv"
+    },
+    {
+      "id": "x-common-verbs-nyit",
+      "hungarian": "nyit",
+      "english": "opens",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A bolt reggel nyit.",
+      "exampleEnglish": "The shop opens in the morning.",
+      "exampleAudioId": "ex-x-common-verbs-nyit"
+    },
+    {
+      "id": "x-common-verbs-zar",
+      "hungarian": "zár",
+      "english": "closes",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A könyvtár este zár.",
+      "exampleEnglish": "The library closes in the evening.",
+      "exampleAudioId": "ex-x-common-verbs-zar"
+    },
+    {
+      "id": "x-common-verbs-kezd",
+      "hungarian": "kezd",
+      "english": "starts",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A megbeszélés kilenckor kezdődik.",
+      "exampleEnglish": "The meeting starts at nine.",
+      "exampleAudioId": "ex-x-common-verbs-kezd"
+    },
+    {
+      "id": "x-common-verbs-befejez",
+      "hungarian": "befejez",
+      "english": "finishes",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A diák befejezi a feladatot.",
+      "exampleEnglish": "The student finishes the task.",
+      "exampleAudioId": "ex-x-common-verbs-befejez"
+    },
+    {
+      "id": "x-common-verbs-marad",
+      "hungarian": "marad",
+      "english": "stays",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A barátom ma otthon marad.",
+      "exampleEnglish": "My friend is staying home today.",
+      "exampleAudioId": "ex-x-common-verbs-marad"
+    },
+    {
+      "id": "x-common-verbs-utazik",
+      "hungarian": "utazik",
+      "english": "travels",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A család vonattal utazik.",
+      "exampleEnglish": "The family is traveling by train.",
+      "exampleAudioId": "ex-x-common-verbs-utazik"
+    },
+    {
+      "id": "x-common-verbs-jatszik",
+      "hungarian": "játszik",
+      "english": "plays",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A gyerek a kertben játszik.",
+      "exampleEnglish": "The child is playing in the garden.",
+      "exampleAudioId": "ex-x-common-verbs-jatszik"
+    },
+    {
+      "id": "x-common-verbs-enekel",
+      "hungarian": "énekel",
+      "english": "sings",
+      "kind": "word",
+      "topic": "Common verbs",
+      "exampleHungarian": "A lány egy dalt énekel.",
+      "exampleEnglish": "The girl is singing a song.",
+      "exampleAudioId": "ex-x-common-verbs-enekel"
+    },
+    {
+      "id": "x-descriptions-csendes",
+      "hungarian": "csendes",
+      "english": "quiet",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A szoba csendes.",
+      "exampleEnglish": "The room is quiet.",
+      "exampleAudioId": "ex-x-descriptions-csendes"
+    },
+    {
+      "id": "x-descriptions-hangos",
+      "hungarian": "hangos",
+      "english": "loud",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A zene hangos.",
+      "exampleEnglish": "The music is loud.",
+      "exampleAudioId": "ex-x-descriptions-hangos"
+    },
+    {
+      "id": "x-descriptions-tiszta",
+      "hungarian": "tiszta",
+      "english": "clean",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A víz tiszta.",
+      "exampleEnglish": "The water is clean.",
+      "exampleAudioId": "ex-x-descriptions-tiszta"
+    },
+    {
+      "id": "x-descriptions-piszkos",
+      "hungarian": "piszkos",
+      "english": "dirty",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A cipő piszkos.",
+      "exampleEnglish": "The shoe is dirty.",
+      "exampleAudioId": "ex-x-descriptions-piszkos"
+    },
+    {
+      "id": "x-descriptions-puha",
+      "hungarian": "puha",
+      "english": "soft",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A párna puha.",
+      "exampleEnglish": "The pillow is soft.",
+      "exampleAudioId": "ex-x-descriptions-puha"
+    },
+    {
+      "id": "x-descriptions-kemeny",
+      "hungarian": "kemény",
+      "english": "hard",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A kenyér kemény.",
+      "exampleEnglish": "The bread is hard.",
+      "exampleAudioId": "ex-x-descriptions-kemeny"
+    },
+    {
+      "id": "x-descriptions-konnyu",
+      "hungarian": "könnyű",
+      "english": "light / easy",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A táska könnyű.",
+      "exampleEnglish": "The bag is light.",
+      "exampleAudioId": "ex-x-descriptions-konnyu"
+    },
+    {
+      "id": "x-descriptions-nehez",
+      "hungarian": "nehéz",
+      "english": "heavy / difficult",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A feladat nehéz.",
+      "exampleEnglish": "The task is difficult.",
+      "exampleAudioId": "ex-x-descriptions-nehez"
+    },
+    {
+      "id": "x-descriptions-hosszu",
+      "hungarian": "hosszú",
+      "english": "long",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A film hosszú.",
+      "exampleEnglish": "The movie is long.",
+      "exampleAudioId": "ex-x-descriptions-hosszu"
+    },
+    {
+      "id": "x-descriptions-rovid",
+      "hungarian": "rövid",
+      "english": "short",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A szünet rövid.",
+      "exampleEnglish": "The break is short.",
+      "exampleAudioId": "ex-x-descriptions-rovid"
+    },
+    {
+      "id": "x-descriptions-magas",
+      "hungarian": "magas",
+      "english": "tall / high",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A torony magas.",
+      "exampleEnglish": "The tower is tall.",
+      "exampleAudioId": "ex-x-descriptions-magas"
+    },
+    {
+      "id": "x-descriptions-alacsony",
+      "hungarian": "alacsony",
+      "english": "short / low",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A szék alacsony.",
+      "exampleEnglish": "The chair is low.",
+      "exampleAudioId": "ex-x-descriptions-alacsony"
+    },
+    {
+      "id": "x-descriptions-szeles",
+      "hungarian": "széles",
+      "english": "wide",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "Az út széles.",
+      "exampleEnglish": "The road is wide.",
+      "exampleAudioId": "ex-x-descriptions-szeles"
+    },
+    {
+      "id": "x-descriptions-keskeny",
+      "hungarian": "keskeny",
+      "english": "narrow",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "Az utca keskeny.",
+      "exampleEnglish": "The street is narrow.",
+      "exampleAudioId": "ex-x-descriptions-keskeny"
+    },
+    {
+      "id": "x-descriptions-egyszeru",
+      "hungarian": "egyszerű",
+      "english": "simple",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A kérdés egyszerű.",
+      "exampleEnglish": "The question is simple.",
+      "exampleAudioId": "ex-x-descriptions-egyszeru"
+    },
+    {
+      "id": "x-descriptions-bonyolult",
+      "hungarian": "bonyolult",
+      "english": "complicated",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A szabály bonyolult.",
+      "exampleEnglish": "The rule is complicated.",
+      "exampleAudioId": "ex-x-descriptions-bonyolult"
+    },
+    {
+      "id": "x-descriptions-erdekes",
+      "hungarian": "érdekes",
+      "english": "interesting",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A könyv érdekes.",
+      "exampleEnglish": "The book is interesting.",
+      "exampleAudioId": "ex-x-descriptions-erdekes"
+    },
+    {
+      "id": "x-descriptions-unalmas",
+      "hungarian": "unalmas",
+      "english": "boring",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A film unalmas.",
+      "exampleEnglish": "The movie is boring.",
+      "exampleAudioId": "ex-x-descriptions-unalmas"
+    },
+    {
+      "id": "x-descriptions-vilagos",
+      "hungarian": "világos",
+      "english": "bright",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A szoba világos.",
+      "exampleEnglish": "The room is bright.",
+      "exampleAudioId": "ex-x-descriptions-vilagos"
+    },
+    {
+      "id": "x-descriptions-sotet",
+      "hungarian": "sötét",
+      "english": "dark",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "Az ég sötét.",
+      "exampleEnglish": "The sky is dark.",
+      "exampleAudioId": "ex-x-descriptions-sotet"
+    },
+    {
+      "id": "x-descriptions-baratsagos",
+      "hungarian": "barátságos",
+      "english": "friendly",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A szomszéd barátságos.",
+      "exampleEnglish": "The neighbor is friendly.",
+      "exampleAudioId": "ex-x-descriptions-baratsagos"
+    },
+    {
+      "id": "x-descriptions-veszelyes",
+      "hungarian": "veszélyes",
+      "english": "dangerous",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A tűz veszélyes.",
+      "exampleEnglish": "Fire is dangerous.",
+      "exampleAudioId": "ex-x-descriptions-veszelyes"
+    },
+    {
+      "id": "x-descriptions-egeszseges",
+      "hungarian": "egészséges",
+      "english": "healthy",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A reggeli egészséges.",
+      "exampleEnglish": "Breakfast is healthy.",
+      "exampleAudioId": "ex-x-descriptions-egeszseges"
+    },
+    {
+      "id": "x-descriptions-beteg",
+      "hungarian": "beteg",
+      "english": "ill",
+      "kind": "word",
+      "topic": "Descriptions",
+      "exampleHungarian": "A barátom beteg.",
+      "exampleEnglish": "My friend is ill.",
+      "exampleAudioId": "ex-x-descriptions-beteg"
+    },
+    {
+      "id": "x-numbers-money-negy",
+      "hungarian": "négy",
+      "english": "four",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám négy.",
+      "exampleEnglish": "The number is four.",
+      "exampleAudioId": "ex-x-numbers-money-negy"
+    },
+    {
+      "id": "x-numbers-money-ot",
+      "hungarian": "öt",
+      "english": "five",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám öt.",
+      "exampleEnglish": "The number is five.",
+      "exampleAudioId": "ex-x-numbers-money-ot"
+    },
+    {
+      "id": "x-numbers-money-hat",
+      "hungarian": "hat",
+      "english": "six",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám hat.",
+      "exampleEnglish": "The number is six.",
+      "exampleAudioId": "ex-x-numbers-money-hat"
+    },
+    {
+      "id": "x-numbers-money-het",
+      "hungarian": "hét",
+      "english": "seven",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám hét.",
+      "exampleEnglish": "The number is seven.",
+      "exampleAudioId": "ex-x-numbers-money-het"
+    },
+    {
+      "id": "x-numbers-money-nyolc",
+      "hungarian": "nyolc",
+      "english": "eight",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám nyolc.",
+      "exampleEnglish": "The number is eight.",
+      "exampleAudioId": "ex-x-numbers-money-nyolc"
+    },
+    {
+      "id": "x-numbers-money-kilenc",
+      "hungarian": "kilenc",
+      "english": "nine",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám kilenc.",
+      "exampleEnglish": "The number is nine.",
+      "exampleAudioId": "ex-x-numbers-money-kilenc"
+    },
+    {
+      "id": "x-numbers-money-tiz",
+      "hungarian": "tíz",
+      "english": "ten",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám tíz.",
+      "exampleEnglish": "The number is ten.",
+      "exampleAudioId": "ex-x-numbers-money-tiz"
+    },
+    {
+      "id": "x-numbers-money-tizenegy",
+      "hungarian": "tizenegy",
+      "english": "eleven",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám tizenegy.",
+      "exampleEnglish": "The number is eleven.",
+      "exampleAudioId": "ex-x-numbers-money-tizenegy"
+    },
+    {
+      "id": "x-numbers-money-tizenketto",
+      "hungarian": "tizenkettő",
+      "english": "twelve",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám tizenkettő.",
+      "exampleEnglish": "The number is twelve.",
+      "exampleAudioId": "ex-x-numbers-money-tizenketto"
+    },
+    {
+      "id": "x-numbers-money-tizenharom",
+      "hungarian": "tizenhárom",
+      "english": "thirteen",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám tizenhárom.",
+      "exampleEnglish": "The number is thirteen.",
+      "exampleAudioId": "ex-x-numbers-money-tizenharom"
+    },
+    {
+      "id": "x-numbers-money-tizennegy",
+      "hungarian": "tizennégy",
+      "english": "fourteen",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám tizennégy.",
+      "exampleEnglish": "The number is fourteen.",
+      "exampleAudioId": "ex-x-numbers-money-tizennegy"
+    },
+    {
+      "id": "x-numbers-money-tizenot",
+      "hungarian": "tizenöt",
+      "english": "fifteen",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám tizenöt.",
+      "exampleEnglish": "The number is fifteen.",
+      "exampleAudioId": "ex-x-numbers-money-tizenot"
+    },
+    {
+      "id": "x-numbers-money-tizenhat",
+      "hungarian": "tizenhat",
+      "english": "sixteen",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám tizenhat.",
+      "exampleEnglish": "The number is sixteen.",
+      "exampleAudioId": "ex-x-numbers-money-tizenhat"
+    },
+    {
+      "id": "x-numbers-money-tizenhet",
+      "hungarian": "tizenhét",
+      "english": "seventeen",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám tizenhét.",
+      "exampleEnglish": "The number is seventeen.",
+      "exampleAudioId": "ex-x-numbers-money-tizenhet"
+    },
+    {
+      "id": "x-numbers-money-tizennyolc",
+      "hungarian": "tizennyolc",
+      "english": "eighteen",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám tizennyolc.",
+      "exampleEnglish": "The number is eighteen.",
+      "exampleAudioId": "ex-x-numbers-money-tizennyolc"
+    },
+    {
+      "id": "x-numbers-money-tizenkilenc",
+      "hungarian": "tizenkilenc",
+      "english": "nineteen",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám tizenkilenc.",
+      "exampleEnglish": "The number is nineteen.",
+      "exampleAudioId": "ex-x-numbers-money-tizenkilenc"
+    },
+    {
+      "id": "x-numbers-money-husz",
+      "hungarian": "húsz",
+      "english": "twenty",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "A szám húsz.",
+      "exampleEnglish": "The number is twenty.",
+      "exampleAudioId": "ex-x-numbers-money-husz"
+    },
+    {
+      "id": "x-numbers-money-ezer",
+      "hungarian": "ezer",
+      "english": "one thousand",
+      "kind": "word",
+      "topic": "Numbers & money",
+      "exampleHungarian": "Ezer forintba kerül.",
+      "exampleEnglish": "It costs one thousand forints.",
+      "exampleAudioId": "ex-x-numbers-money-ezer"
+    },
+    {
+      "id": "x-emergencies-segitseg",
+      "hungarian": "segítség",
+      "english": "help",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "Kérek segítséget.",
+      "exampleEnglish": "I need help.",
+      "exampleAudioId": "ex-x-emergencies-segitseg"
+    },
+    {
+      "id": "x-emergencies-rendor",
+      "hungarian": "rendőr",
+      "english": "police officer",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "Hívja a rendőrt!",
+      "exampleEnglish": "Call the police officer!",
+      "exampleAudioId": "ex-x-emergencies-rendor"
+    },
+    {
+      "id": "x-emergencies-tuz",
+      "hungarian": "tűz",
+      "english": "fire",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "Tűz van!",
+      "exampleEnglish": "There is a fire!",
+      "exampleAudioId": "ex-x-emergencies-tuz"
+    },
+    {
+      "id": "x-emergencies-baleset",
+      "hungarian": "baleset",
+      "english": "accident",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "A baleset az úton történt.",
+      "exampleEnglish": "The accident happened on the road.",
+      "exampleAudioId": "ex-x-emergencies-baleset"
+    },
+    {
+      "id": "x-emergencies-veszely",
+      "hungarian": "veszély",
+      "english": "danger",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "Ez nagy veszély.",
+      "exampleEnglish": "This is a great danger.",
+      "exampleAudioId": "ex-x-emergencies-veszely"
+    },
+    {
+      "id": "x-emergencies-mentoauto",
+      "hungarian": "mentőautó",
+      "english": "ambulance",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "Hívjuk a mentőautót!",
+      "exampleEnglish": "Let's call the ambulance!",
+      "exampleAudioId": "ex-x-emergencies-mentoauto"
+    },
+    {
+      "id": "x-emergencies-tuzolto",
+      "hungarian": "tűzoltó",
+      "english": "firefighter",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "A tűzoltó már úton van.",
+      "exampleEnglish": "The firefighter is already on the way.",
+      "exampleAudioId": "ex-x-emergencies-tuzolto"
+    },
+    {
+      "id": "x-emergencies-serules",
+      "hungarian": "sérülés",
+      "english": "injury",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "A sérülés nem súlyos.",
+      "exampleEnglish": "The injury isn't serious.",
+      "exampleAudioId": "ex-x-emergencies-serules"
+    },
+    {
+      "id": "x-emergencies-elsosegely",
+      "hungarian": "elsősegély",
+      "english": "first aid",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "Elsősegélyre van szükségünk.",
+      "exampleEnglish": "We need first aid.",
+      "exampleAudioId": "ex-x-emergencies-elsosegely"
+    },
+    {
+      "id": "x-emergencies-veszhelyzet",
+      "hungarian": "vészhelyzet",
+      "english": "emergency",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "Vészhelyzet esetén hívjon segítséget.",
+      "exampleEnglish": "Call for help in an emergency.",
+      "exampleAudioId": "ex-x-emergencies-veszhelyzet"
+    },
+    {
+      "id": "x-emergencies-eltunt",
+      "hungarian": "eltűnt",
+      "english": "missing / disappeared",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "A gyerek eltűnt.",
+      "exampleEnglish": "The child is missing.",
+      "exampleAudioId": "ex-x-emergencies-eltunt"
+    },
+    {
+      "id": "x-emergencies-lopas",
+      "hungarian": "lopás",
+      "english": "theft",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "A lopás tegnap történt.",
+      "exampleEnglish": "The theft happened yesterday.",
+      "exampleAudioId": "ex-x-emergencies-lopas"
+    },
+    {
+      "id": "x-emergencies-betoro",
+      "hungarian": "betörő",
+      "english": "burglar",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "A betörő elmenekült.",
+      "exampleEnglish": "The burglar ran away.",
+      "exampleAudioId": "ex-x-emergencies-betoro"
+    },
+    {
+      "id": "x-emergencies-biztonsag",
+      "hungarian": "biztonság",
+      "english": "safety",
+      "kind": "word",
+      "topic": "Emergencies",
+      "exampleHungarian": "A biztonság nagyon fontos.",
+      "exampleEnglish": "Safety is very important.",
+      "exampleAudioId": "ex-x-emergencies-biztonsag"
+    }
+  ]
+}
