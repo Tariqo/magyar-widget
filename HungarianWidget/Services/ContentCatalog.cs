@@ -6,10 +6,11 @@ namespace HungarianWidget.Services;
 
 public sealed class ContentCatalog
 {
-    private ContentCatalog(IReadOnlyList<LearningCard> cards)
+    private ContentCatalog(IReadOnlyList<LearningCard> cards, IReadOnlyList<WordNote> wordNotes)
     {
         Cards = cards;
         ById = cards.ToDictionary(card => card.Id, StringComparer.OrdinalIgnoreCase);
+        WordNotes = wordNotes.ToDictionary(note => note.CardId, StringComparer.OrdinalIgnoreCase);
         Categories = cards.Select(card => card.Topic)
             .Distinct(StringComparer.OrdinalIgnoreCase)
             .OrderBy(topic => topic, StringComparer.OrdinalIgnoreCase)
@@ -19,12 +20,14 @@ public sealed class ContentCatalog
     public IReadOnlyList<LearningCard> Cards { get; }
     public IReadOnlyDictionary<string, LearningCard> ById { get; }
     public IReadOnlyList<string> Categories { get; }
+    public IReadOnlyDictionary<string, WordNote> WordNotes { get; }
 
     public static ContentCatalog Load()
     {
         var assembly = Assembly.GetExecutingAssembly();
         var initialCards = ReadPack(assembly, "Content.cards.json").Cards;
         var expandedCards = ReadPack(assembly, "Content.expanded-cards.json").Cards;
+        var notePack = ReadJson<WordNotePack>(assembly, "Content.word-notes.json");
         var allCards = initialCards.Concat(expandedCards).ToList();
         if (allCards.Count == 0)
             throw new InvalidOperationException("The Hungarian content pack is empty or invalid.");
@@ -58,10 +61,23 @@ public sealed class ContentCatalog
             })
             .ToList();
 
-        return new ContentCatalog(vocabulary);
+        var noteIds = new HashSet<string>(vocabulary.Select(card => card.Id), StringComparer.OrdinalIgnoreCase);
+        if (notePack.Cards.Any(note => string.IsNullOrWhiteSpace(note.CardId)
+                                       || !noteIds.Contains(note.CardId)
+                                       || string.IsNullOrWhiteSpace(note.PartOfSpeech)
+                                       || note.Forms.Length == 0))
+            throw new InvalidOperationException("A word note is missing its card, part of speech, or forms.");
+        if (notePack.Cards.Select(note => note.CardId).Distinct(StringComparer.OrdinalIgnoreCase).Count()
+            != notePack.Cards.Count)
+            throw new InvalidOperationException("The word notes contain duplicate card IDs.");
+
+        return new ContentCatalog(vocabulary, notePack.Cards);
     }
 
     private static ContentPack ReadPack(Assembly assembly, string suffix)
+        => ReadJson<ContentPack>(assembly, suffix);
+
+    private static T ReadJson<T>(Assembly assembly, string suffix)
     {
         var resourceName = assembly.GetManifestResourceNames()
             .FirstOrDefault(name => name.EndsWith(suffix, StringComparison.OrdinalIgnoreCase));
@@ -70,7 +86,7 @@ public sealed class ContentCatalog
 
         using var stream = assembly.GetManifestResourceStream(resourceName)
             ?? throw new InvalidOperationException($"The content pack '{suffix}' could not be opened.");
-        return JsonSerializer.Deserialize<ContentPack>(stream, new JsonSerializerOptions
+        return JsonSerializer.Deserialize<T>(stream, new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true
         }) ?? throw new InvalidOperationException($"The content pack '{suffix}' is invalid.");
@@ -118,5 +134,11 @@ public sealed class ContentCatalog
     {
         public int Version { get; init; }
         public List<LearningCard> Cards { get; init; } = [];
+    }
+
+    private sealed class WordNotePack
+    {
+        public int Version { get; init; }
+        public List<WordNote> Cards { get; init; } = [];
     }
 }

@@ -71,7 +71,12 @@
                 </StackPanel>
 
                 <StackPanel x:Name="CardContent" Grid.Row="2" VerticalAlignment="Center">
-                    <TextBlock Text="WORD" Foreground="#BEB4FF" FontSize="10" FontWeight="Bold" />
+                    <Grid>
+                        <TextBlock Text="WORD" Foreground="#BEB4FF" FontSize="10" FontWeight="Bold" />
+                        <TextBlock x:Name="WordInfoHintText" Text="HOVER FOR FORMS" Foreground="#98A1B7"
+                                   FontSize="9" FontWeight="SemiBold" HorizontalAlignment="Right"
+                                   Visibility="Collapsed" />
+                    </Grid>
                     <TextBlock x:Name="HungarianText" Text="Szia!" Foreground="#FBFAFF" FontSize="31"
                                FontFamily="Segoe UI Variable Display, Segoe UI" FontWeight="SemiBold"
                                TextWrapping="Wrap" MaxHeight="76" LineStackingStrategy="BlockLineHeight"

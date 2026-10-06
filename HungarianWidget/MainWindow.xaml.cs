@@ -249,10 +249,119 @@ public partial class MainWindow : Window
         ApplyBadgeTheme(selection.IsReview);
         TopicText.Text = selection.Card.Topic.ToUpperInvariant();
         HungarianText.Text = selection.Card.Hungarian;
+        SetWordTooltip(selection.Card);
         EnglishText.Text = selection.Card.English;
         ExampleHungarianText.Text = selection.Card.ExampleHungarian;
         ExampleEnglishText.Text = selection.Card.ExampleEnglish;
         AudioStatusText.Text = selection.IsReview ? "Due for a quick review" : "Tap to hear Hungarian";
+    }
+
+    private void SetWordTooltip(LearningCard card)
+    {
+        if (!_catalog.WordNotes.TryGetValue(card.Id, out var note))
+        {
+            HungarianText.ToolTip = null;
+            HungarianText.Cursor = Cursors.Arrow;
+            WordInfoHintText.Visibility = Visibility.Collapsed;
+            return;
+        }
+
+        var dark = !_lightTheme;
+        var panel = new StackPanel { MaxWidth = 340 };
+        panel.Children.Add(new TextBlock
+        {
+            Text = $"{note.PartOfSpeech.ToUpperInvariant()}  ·  QUICK REFERENCE",
+            FontSize = 10,
+            FontWeight = FontWeights.Bold,
+            Foreground = Brush(dark ? "#BEB4FF" : "#514489"),
+            Margin = new Thickness(0, 0, 0, 8)
+        });
+
+        AddTooltipSection(panel, "USEFUL FORMS", note.Forms.Select(form => new TooltipEntry(
+            form.Hungarian, form.Label, form.English)));
+        AddTooltipSection(panel, "SYNONYMS", note.Synonyms.Select(word => new TooltipEntry(
+            word.Hungarian, word.Note, word.English)));
+        AddTooltipSection(panel, "RELATED WORDS", note.RelatedWords.Select(word => new TooltipEntry(
+            word.Hungarian, word.Note, word.English)));
+
+        var footer = note.Footer;
+        if (string.IsNullOrWhiteSpace(footer))
+            footer = note.PartOfSpeech.Equals("Noun", StringComparison.OrdinalIgnoreCase)
+                ? "Plural and accusative (direct object) forms."
+                : "A few useful forms; not a full conjugation chart.";
+        panel.Children.Add(new TextBlock
+        {
+            Text = footer,
+            FontSize = 10,
+            Foreground = Brush(dark ? "#98A5BB" : "#6C7184"),
+            TextWrapping = TextWrapping.Wrap,
+            Margin = new Thickness(0, 8, 0, 0)
+        });
+
+        HungarianText.ToolTip = new Border
+        {
+            Padding = new Thickness(14, 12, 14, 12),
+            CornerRadius = new CornerRadius(12),
+            BorderThickness = new Thickness(1),
+            BorderBrush = Brush(dark ? "#53617D" : "#D9D9E7"),
+            Background = Brush(dark ? "#202A40" : "#FAF9FE"),
+            Child = panel
+        };
+        HungarianText.Cursor = Cursors.Help;
+        WordInfoHintText.Text = "HOVER FOR FORMS & MORE";
+        WordInfoHintText.Visibility = Visibility.Visible;
+        ToolTipService.SetInitialShowDelay(HungarianText, 350);
+        ToolTipService.SetShowDuration(HungarianText, 30000);
+    }
+
+    private void AddTooltipSection(Panel panel, string heading, IEnumerable<TooltipEntry> entries)
+    {
+        var rows = entries.ToArray();
+        if (rows.Length == 0) return;
+
+        panel.Children.Add(new TextBlock
+        {
+            Text = heading,
+            FontSize = 9,
+            FontWeight = FontWeights.Bold,
+            Foreground = Brush(_lightTheme ? "#777B8D" : "#99A6BF"),
+            Margin = new Thickness(0, 3, 0, 3)
+        });
+        foreach (var entry in rows)
+        {
+            var row = new StackPanel { Margin = new Thickness(0, 0, 0, 6) };
+            var title = new Grid();
+            title.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+            title.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+            title.Children.Add(new TextBlock
+            {
+                Text = entry.Hungarian,
+                FontSize = 13,
+                FontWeight = FontWeights.SemiBold,
+                Foreground = Brush(_lightTheme ? "#24243A" : "#F5F6FC"),
+                TextWrapping = TextWrapping.Wrap
+            });
+            var label = new TextBlock
+            {
+                Text = entry.Label,
+                FontSize = 9,
+                Foreground = Brush(_lightTheme ? "#777B8D" : "#99A6BF"),
+                Margin = new Thickness(10, 2, 0, 0),
+                TextWrapping = TextWrapping.Wrap,
+                HorizontalAlignment = HorizontalAlignment.Right
+            };
+            Grid.SetColumn(label, 1);
+            title.Children.Add(label);
+            row.Children.Add(title);
+            row.Children.Add(new TextBlock
+            {
+                Text = entry.English,
+                FontSize = 11,
+                Foreground = Brush(_lightTheme ? "#555A70" : "#B7C1D4"),
+                TextWrapping = TextWrapping.Wrap
+            });
+            panel.Children.Add(row);
+        }
     }
 
     private void ShowRotationComplete()
@@ -540,7 +649,12 @@ public partial class MainWindow : Window
         QuizFeedbackText.Foreground = Brush(light ? "#52576C" : "#D5D7E2");
         QuizResultText.Foreground = Brush(light ? "#222339" : "#F7F6FF");
         QuizResultHintText.Foreground = Brush(light ? "#686D81" : "#AAB4C8");
-        if (_currentCard is not null) ApplyBadgeTheme(_currentCard.IsReview);
+        if (_currentCard is not null)
+        {
+            ApplyBadgeTheme(_currentCard.IsReview);
+            if (CardContent.Visibility == Visibility.Visible)
+                SetWordTooltip(_currentCard.Card);
+        }
     }
 
     private void ApplyBadgeTheme(bool review)
@@ -558,6 +672,8 @@ public partial class MainWindow : Window
     }
 
     private static SolidColorBrush Brush(string color) => new((Color)ColorConverter.ConvertFromString(color)!);
+
+    private sealed record TooltipEntry(string Hungarian, string Label, string English);
 
     private void SetStartup(bool enabled)
     {

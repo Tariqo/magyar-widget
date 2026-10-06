@@ -21,6 +21,7 @@
     <Resource Include="Content\magyar.ico" />
     <EmbeddedResource Include="Content\cards.json" LogicalName="HungarianWidget.Content.cards.json" />
     <EmbeddedResource Include="Content\expanded-cards.json" LogicalName="HungarianWidget.Content.expanded-cards.json" />
+    <EmbeddedResource Include="Content\word-notes.json" LogicalName="HungarianWidget.Content.word-notes.json" />
     <EmbeddedResource Include="Content\Audio\*.wav">
       <LogicalName>HungarianWidget.Content.Audio.%(Filename)%(Extension)</LogicalName>
     </EmbeddedResource>

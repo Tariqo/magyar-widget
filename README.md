@@ -17,6 +17,7 @@ Build the self-contained Windows x64 package with the command under **Build from
 The quiz opens inline and makes the widget taller while it is in use.
 
 - **Reroll** shows another word from the enabled categories. New words come first; due review cards follow. A word will not repeat within the active rotation.
+- Hover over a word marked **HOVER FOR FORMS & MORE** to see useful verb forms, noun plurals and object forms, plus selected synonyms or related words. The reference notes currently cover 40 verbs and 134 nouns; they are concise learning aids, not complete grammar tables.
 - **Quiz** expands the widget and asks up to three questions using cards you have seen. Choose an answer for feedback and a short result at the end.
 - When the word rotation is exhausted, choose **Start another rotation** to deliberately repeat material.
 - **×** hides the widget in the system tray. Double-click the tray icon to show it again; use the menu to exit.
@@ -27,7 +28,7 @@ The quiz opens inline and makes the widget taller while it is in use.
 
 ## Learning data and audio
 
-The starter pack contains 500 word cards across 18 categories, from street talk and shops to health, travel, technology, and hobbies. Each card includes the word's English meaning, a Hungarian example sentence and its English translation, plus separate bundled Hungarian WAV pronunciation for the word and sentence. The voice is synthesized, so it may sound less natural than a human recording, but audio works offline and does not depend on installed Windows voices.
+The starter pack contains 500 word cards across 18 categories, from street talk and shops to health, travel, technology, and hobbies. Each card includes the word's English meaning, a Hungarian example sentence and its English translation, plus separate bundled Hungarian WAV pronunciation for the word and sentence. Hover notes currently cover 40 verbs and 134 nouns, including useful forms and selected synonyms or related words. The voice is synthesized, so it may sound less natural than a human recording, but audio works offline and does not depend on installed Windows voices.
 
 Study progress and preferences are stored locally at `%LOCALAPPDATA%\MagyarWidget\learning.db`. The app makes no network requests and has no account or sync service. See [AUDIO-NOTICE.md](HungarianWidget/Content/AUDIO-NOTICE.md) for the voice-model source and license notes.
 
