@@ -77,7 +77,8 @@
                                    FontSize="9" FontWeight="SemiBold" HorizontalAlignment="Right"
                                    Visibility="Collapsed" />
                     </Grid>
-                    <TextBlock x:Name="HungarianText" Text="Szia!" Foreground="#FBFAFF" FontSize="31"
+                    <TextBlock x:Name="HungarianText" Text="Szia!" Background="Transparent"
+                               Foreground="#FBFAFF" FontSize="31"
                                FontFamily="Segoe UI Variable Display, Segoe UI" FontWeight="SemiBold"
                                TextWrapping="Wrap" MaxHeight="76" LineStackingStrategy="BlockLineHeight"
                                LineHeight="36" Margin="0,5,0,0" />

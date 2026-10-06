@@ -298,7 +298,7 @@ public partial class MainWindow : Window
             Margin = new Thickness(0, 8, 0, 0)
         });
 
-        HungarianText.ToolTip = new Border
+        var tooltipContent = new Border
         {
             Padding = new Thickness(14, 12, 14, 12),
             CornerRadius = new CornerRadius(12),
@@ -307,11 +307,18 @@ public partial class MainWindow : Window
             Background = Brush(dark ? "#202A40" : "#FAF9FE"),
             Child = panel
         };
+        HungarianText.ToolTip = new ToolTip
+        {
+            Content = tooltipContent,
+            PlacementTarget = HungarianText,
+            Placement = PlacementMode.Mouse
+        };
         HungarianText.Cursor = Cursors.Help;
         WordInfoHintText.Text = "HOVER FOR FORMS & MORE";
         WordInfoHintText.Visibility = Visibility.Visible;
         ToolTipService.SetInitialShowDelay(HungarianText, 350);
         ToolTipService.SetShowDuration(HungarianText, 30000);
+        ToolTipService.SetBetweenShowDelay(HungarianText, 0);
     }
 
     private void AddTooltipSection(Panel panel, string heading, IEnumerable<TooltipEntry> entries)
