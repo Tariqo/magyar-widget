@@ -86,6 +86,17 @@ public partial class MainWindow : Window
         _audioPlayer.PlayExample(_currentCard.Card);
     }
 
+    private void RevealAnswerButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (_currentCard is null) return;
+        SetAnswerRevealed(true);
+        AudioStatusText.Text = "How well did you remember it?";
+    }
+
+    private void RecallAgainButton_Click(object sender, RoutedEventArgs e) => RateCurrentRecall(remembered: false);
+
+    private void RecallGotItButton_Click(object sender, RoutedEventArgs e) => RateCurrentRecall(remembered: true);
+
     private void QuizButton_Click(object sender, RoutedEventArgs e)
     {
         if (_quizExpanded)
@@ -243,6 +254,9 @@ public partial class MainWindow : Window
         NewCycleButton.Visibility = Visibility.Visible;
         ListenButton.IsEnabled = true;
         ListenSentenceButton.IsEnabled = true;
+        RevealAnswerButton.IsEnabled = true;
+        RecallAgainButton.IsEnabled = true;
+        RecallGotItButton.IsEnabled = true;
         BadgeText.Text = selection.IsReview
             ? "SPACED REVIEW"
             : "NEW WORD";
@@ -253,7 +267,24 @@ public partial class MainWindow : Window
         EnglishText.Text = selection.Card.English;
         ExampleHungarianText.Text = selection.Card.ExampleHungarian;
         ExampleEnglishText.Text = selection.Card.ExampleEnglish;
-        AudioStatusText.Text = selection.IsReview ? "Due for a quick review" : "Tap to hear Hungarian";
+        SetAnswerRevealed(false);
+        AudioStatusText.Text = selection.IsReview ? "Due review · try from memory" : "Try to remember, then reveal";
+    }
+
+    private void SetAnswerRevealed(bool revealed)
+    {
+        EnglishText.Visibility = revealed ? Visibility.Visible : Visibility.Collapsed;
+        ExampleEnglishText.Visibility = revealed ? Visibility.Visible : Visibility.Collapsed;
+        RevealAnswerButton.Visibility = revealed ? Visibility.Collapsed : Visibility.Visible;
+        RecallRatingPanel.Visibility = revealed ? Visibility.Visible : Visibility.Collapsed;
+    }
+
+    private void RateCurrentRecall(bool remembered)
+    {
+        if (_currentCard is null) return;
+        CloseQuiz();
+        _progress.RecordRecallAnswer(_currentCard.Card.Id, remembered);
+        ShowNextCardOrEmpty();
     }
 
     private void SetWordTooltip(LearningCard card)
@@ -379,6 +410,8 @@ public partial class MainWindow : Window
         NewCycleButton.Visibility = Visibility.Visible;
         ListenButton.IsEnabled = false;
         ListenSentenceButton.IsEnabled = false;
+        RevealAnswerButton.Visibility = Visibility.Collapsed;
+        RecallRatingPanel.Visibility = Visibility.Collapsed;
         AudioStatusText.Text = "No repeat cards in this rotation";
         EmptyTitleText.Text = "You've seen this rotation.";
         EmptyDescriptionText.Text = "Start another rotation for more cards. Due cards return for review later.";
@@ -392,6 +425,8 @@ public partial class MainWindow : Window
         NewCycleButton.Visibility = Visibility.Collapsed;
         ListenButton.IsEnabled = false;
         ListenSentenceButton.IsEnabled = false;
+        RevealAnswerButton.Visibility = Visibility.Collapsed;
+        RecallRatingPanel.Visibility = Visibility.Collapsed;
         AudioStatusText.Text = "Choose a category in the ⋯ menu";
         EmptyTitleText.Text = "No categories are selected.";
         EmptyDescriptionText.Text = "Open ⋯, then Categories, and turn on the subjects you want to study.";

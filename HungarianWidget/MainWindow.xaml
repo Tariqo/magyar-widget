@@ -116,9 +116,27 @@
                             Click="ListenSentenceButton_Click" ToolTip="Hear the example sentence" />
                 </Grid>
 
-                <TextBlock x:Name="AudioStatusText" Grid.Row="4" Text="Tap either button to hear Hungarian"
-                           Foreground="#8E9BB4" FontSize="10" VerticalAlignment="Center" Margin="2,7,0,0"
-                           TextWrapping="Wrap" />
+                <Grid Grid.Row="4" Margin="2,7,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="AudioStatusText" Text="Try to remember, then reveal"
+                               Foreground="#8E9BB4" FontSize="10" VerticalAlignment="Center"
+                               TextWrapping="Wrap" />
+                    <Button x:Name="RevealAnswerButton" Grid.Column="1" Content="Reveal English"
+                            Padding="9,5" FontSize="10" Click="RevealAnswerButton_Click"
+                            ToolTip="Show the English word and sentence" />
+                    <StackPanel x:Name="RecallRatingPanel" Grid.Column="1" Orientation="Horizontal"
+                                Visibility="Collapsed">
+                        <Button x:Name="RecallAgainButton" Content="Again" Padding="8,5"
+                                FontSize="10" Margin="0,0,5,0" Click="RecallAgainButton_Click"
+                                ToolTip="I couldn't recall this yet" />
+                        <Button x:Name="RecallGotItButton" Content="Got it" Padding="8,5"
+                                FontSize="10" Click="RecallGotItButton_Click"
+                                ToolTip="I remembered this word" />
+                    </StackPanel>
+                </Grid>
 
                 <Border x:Name="QuizPanel" Grid.Row="5" Visibility="Collapsed" Margin="0,14,0,0"
                         Padding="14" CornerRadius="16" Background="#202A40" BorderBrush="#394660"

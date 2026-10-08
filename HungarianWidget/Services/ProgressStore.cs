@@ -52,13 +52,19 @@ public sealed class ProgressStore
         var eligibleCards = cards.Where(card => enabledCategories.Contains(card.Topic)).ToList();
         var freshCards = eligibleCards.Where(card => !seen.Contains(card.Id) && !progress.ContainsKey(card.Id)).ToList();
         var earlyReviewEnabled = GetSetting("early_review_cycle") == cycle;
-        LearningCard? selected = freshCards.Count > 0
-            ? freshCards[Random.Shared.Next(freshCards.Count)]
-            : eligibleCards.Where(card => !seen.Contains(card.Id)
-                                  && progress.TryGetValue(card.Id, out var dueAt)
-                                  && (dueAt <= DateTimeOffset.UtcNow || earlyReviewEnabled))
-                .OrderBy(card => progress[card.Id])
-                .FirstOrDefault();
+        var dueReviews = eligibleCards
+            .Where(card => !seen.Contains(card.Id)
+                           && progress.TryGetValue(card.Id, out var dueAt)
+                           && (dueAt <= DateTimeOffset.UtcNow || earlyReviewEnabled))
+            .OrderBy(card => progress[card.Id])
+            .ToList();
+        var seenToday = eligibleCards.Count(card => seen.Contains(card.Id));
+        var reviewSlot = dueReviews.Count > 0 && (freshCards.Count == 0 || seenToday % 3 == 2);
+        LearningCard? selected = reviewSlot
+            ? dueReviews[0]
+            : freshCards.Count > 0
+                ? freshCards[Random.Shared.Next(freshCards.Count)]
+                : dueReviews.FirstOrDefault();
 
         if (selected is null)
             return null;
@@ -85,7 +91,11 @@ public sealed class ProgressStore
         return cards;
     }
 
-    public void RecordQuizAnswer(string cardId, bool correct)
+    public void RecordQuizAnswer(string cardId, bool correct) => RecordAnswer(cardId, correct, countAsQuiz: true);
+
+    public void RecordRecallAnswer(string cardId, bool remembered) => RecordAnswer(cardId, remembered, countAsQuiz: false);
+
+    private void RecordAnswer(string cardId, bool correct, bool countAsQuiz)
     {
         var currentStreak = 0;
         using (var connection = OpenConnection())
@@ -106,13 +116,14 @@ public sealed class ProgressStore
         update.CommandText = """
             UPDATE CardProgress
             SET correct_streak = $streak,
-                quiz_total = quiz_total + 1,
-                quiz_correct = quiz_correct + $correct,
+                quiz_total = quiz_total + $quiz,
+                quiz_correct = quiz_correct + $quiz_correct,
                 next_review_utc = $review
             WHERE card_id = $id;
             """;
         update.Parameters.AddWithValue("$streak", nextStreak);
-        update.Parameters.AddWithValue("$correct", correct ? 1 : 0);
+        update.Parameters.AddWithValue("$quiz", countAsQuiz ? 1 : 0);
+        update.Parameters.AddWithValue("$quiz_correct", countAsQuiz && correct ? 1 : 0);
         update.Parameters.AddWithValue("$review", reviewAt.ToString("O", CultureInfo.InvariantCulture));
         update.Parameters.AddWithValue("$id", cardId);
         update.ExecuteNonQuery();

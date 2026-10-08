@@ -16,7 +16,8 @@ Build the self-contained Windows x64 package with the command under **Build from
 
 The quiz opens inline and makes the widget taller while it is in use.
 
-- **Reroll** shows another word from the enabled categories. New words come first; due review cards follow. A word will not repeat within the active rotation.
+- **Reroll** shows another word from the enabled categories. It mixes new cards with due reviews, inserting a review about every third card when one is waiting. A word will not repeat within the active rotation.
+- English translations start hidden so you can try to recall them first. Reveal the answer, then choose **Again** or **Got it** to schedule the next review; successful recalls move to longer intervals.
 - Hover over a word marked **HOVER FOR FORMS & MORE** to see useful verb forms, noun plurals and object forms, plus selected synonyms or related words. The reference notes currently cover 40 verbs and 152 nouns; they are concise learning aids, not complete grammar tables.
 - **Quiz** expands the widget and asks up to three questions using cards you have seen. Choose an answer for feedback and a short result at the end.
 - When the word rotation is exhausted, choose **Start another rotation** to deliberately repeat material.
